@@ -1,6 +1,7 @@
 FROM tutum/lamp
 
-RUN apt-get install -y curl && \
+RUN apt-get -y update && \
+    apt-get -y install curl && \
     git clone -b v4.1.13 https://github.com/thebuggenie/thebuggenie /var/www/thebuggenie
 
 WORKDIR /var/www/thebuggenie
