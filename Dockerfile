@@ -8,7 +8,7 @@ WORKDIR /var/www/thebuggenie
 RUN curl -sS https://getcomposer.org/installer | php
 
 RUN apt-get update && apt-get -y install \
-    php5-gd php5-curl nano
+    php5-gd php5-curl php5-ldap nano
 
 RUN php composer.phar install
 
