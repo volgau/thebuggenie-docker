@@ -4,7 +4,7 @@
         <body>
             <trans-unit id="d830f533ad8d4207b9efaaaf64296d3b">
                 <source>VCS Integration has been disabled for this project</source>
-                <target>VCS интеграция была отключена для этого проекта</target>
+                <target>Интеграция с VCS была отключена для этого проекта</target>
             </trans-unit>
             <trans-unit id="96d4dadd096605d5813d2c6bdf82e82c">
                 <source>Settings saved</source>
@@ -38,7 +38,7 @@
             </trans-unit>
             <trans-unit id="1e7978209afd6fec92d42e5c5cb314c3">
                 <source>Preceeded by %prev</source>
-                <target>Обработано  %prev</target>
+                <target>Предшественник - %prev</target>
             </trans-unit>
             <trans-unit id="523d91ac12e772bb9fbce4304b01ba8b">
                 <source>Show more details</source>
@@ -130,11 +130,11 @@
             </trans-unit>
             <trans-unit id="a7b406d0ae5e1205ab1f79a80befaf2f">
                 <source>You do not have the relevant permissions to access VCS Integration settings</source>
-                <target>У вас нет соответствующих прав для доступа к параметрам VCS интеграции</target>
+                <target>У Вас нет соответствующих прав для доступа к параметрам интеграции с VCS</target>
             </trans-unit>
             <trans-unit id="16c2a334b3e54030fcb272cfccb1081e">
                 <source>Remember to set up the hook after saving these settings - see the %documentation. You will need this project's ID number: %id</source>
-                <target>Не забудьте установить хуки, после сохранения этих настроек - смотрите в  %documentation. Вам понадобится ID этого проекта: %id</target>
+                <target>Не забудьте установить хуки после сохранения этих настроек - подробнее в %documentation. Для этого Вам понадобится ID этого проекта: %id</target>
             </trans-unit>
             <trans-unit id="55876228853abf632dec9346a4f372ec">
                 <source>documentation</source>
@@ -142,7 +142,7 @@
             </trans-unit>
             <trans-unit id="5bcc399909acb6ca2bae6fd2a1471835">
                 <source>Enable VCS Integration?</source>
-                <target>Включить VCS интеграцию?</target>
+                <target>Включить интеграцию с VCS?</target>
             </trans-unit>
             <trans-unit id="1a87c4bd9d5047e6427de8ac1ae50b23">
                 <source>Disable for this project</source>
@@ -162,7 +162,7 @@
             </trans-unit>
             <trans-unit id="c6c557ba2361bcba2cfae08f9ebb3274">
                 <source>This will allow specially-crafted commit messages to cause a workflow transition, in the same way as incoming emails. See the documentation for details.</source>
-                <target>Это позволит специально созданным сообщениям коммита вызвать переход рабочего процесса, аналогично входящим сообщениям. Смотрите документацию для подробной информации.</target>
+                <target>Это позволит специально созданным сообщениям коммита вызвать переходы рабочего процесса, аналогично входящим сообщениям электронной почты. Обратитесь к документации для получения подробной информации.</target>
             </trans-unit>
             <trans-unit id="fa354790fc8d73ac3f0b9a9cead739a5">
                 <source>Access method</source>
@@ -174,7 +174,7 @@
             </trans-unit>
             <trans-unit id="8f833d57fe35ef293be0c9e3bfdd5c8a">
                 <source>HTTP Access (via a call to a URL)</source>
-                <target>HTTP доступ (через URL)</target>
+                <target>HTTP доступ (через обращение по URL)</target>
             </trans-unit>
             <trans-unit id="b17190ac8b7d9d8b9bcdaf8ef465c57d">
                 <source>Required for Github, Gitorious and Bitbucket users</source>
@@ -182,7 +182,7 @@
             </trans-unit>
             <trans-unit id="63b014bd6e0150e23f7ab3570e8add0c">
                 <source>HTTP Passkey</source>
-                <target>HTTP ключ доступа</target>
+                <target>Ключ доступа HTTP</target>
             </trans-unit>
             <trans-unit id="3f625aa535df468cee652909b3e412b0">
                 <source>URL to repository browser</source>
@@ -190,7 +190,7 @@
             </trans-unit>
             <trans-unit id="4836062562305cebe9f3b2814a037537">
                 <source>If the repository name is part of the URL (e.g. http://www.example.com/viewvc/myrepo), please include it as part of this field.</source>
-                <target>Если название репозитория часть URL (пример http://www.example.com/viewvc/myrepo), укажите его здесь.</target>
+                <target>Если название репозитория является частью URL (например http://www.example.com/viewvc/myrepo), укажите его как часть значения этого поля.</target>
             </trans-unit>
             <trans-unit id="b70945a8f4f413cf126d26120be1f57a">
                 <source>Repository browser type</source>
@@ -198,7 +198,7 @@
             </trans-unit>
             <trans-unit id="2870373a9a74bde2295bee7637597185">
                 <source>Set URLs manually</source>
-                <target>Установить URL'ы вручную</target>
+                <target>Установить URL вручную</target>
             </trans-unit>
             <trans-unit id="727b4cc7d182ed609c44c5e5a0dda257">
                 <source>Multi-system</source>
@@ -214,7 +214,7 @@
             </trans-unit>
             <trans-unit id="4b91e794c9bee51c5a80d471a5a3993f">
                 <source>If you are setting up for the first time, it is recommended you set a browser type, which will automatically set the URLs for you.</source>
-                <target>Если вы впервые настраиваете этот параметр - рекомендуется выбрать тип браузера, который автоматически настроит URL.</target>
+                <target>Если Вы впервые настраиваете этот параметр - рекомендуется выбрать тип браузера, который автоматически настроит URL.</target>
             </trans-unit>
             <trans-unit id="6c4274a072c4d46c6ec6091ee96e734f">
                 <source>Repository name</source>
@@ -226,11 +226,11 @@
             </trans-unit>
             <trans-unit id="406eee7dbbdc1395ee3c49bd61ee7f03">
                 <source>In the Commit details page field, the following parameters will be replaced with a real value when link is generated:</source>
-                <target>На странице детализации коммита следующие параметры будут заменены реальными данными, при генерации ссылки:</target>
+                <target>На странице деталей коммита следующие параметры будут заменены реальными данными при генерации ссылки:</target>
             </trans-unit>
             <trans-unit id="71b5ada265ece8eb6da529116bb9cb0b">
                 <source>Revision number/hash of either the current or previous revision (the one to use is automatically chosen as appropriate)</source>
-                <target>Номер/Хэш ревизии, либо текущая или предыдущая ревизия (одна автоматический выбираеться для использования по мере необходимости)</target>
+                <target>Номер/хэш ревизии, либо текущая или предыдущая ревизия (одна автоматический выбираеться для использования по мере необходимости)</target>
             </trans-unit>
             <trans-unit id="bc9614aa83a2fbc2600244aecf6cabc1">
                 <source>Branch (if provided by the hook). If no branch is provided, this will be left unchanged</source>
@@ -242,11 +242,11 @@
             </trans-unit>
             <trans-unit id="e1fadb64cc4c4e57fc2078031565e98a">
                 <source>Revision number/hash</source>
-                <target>Номер/Хэш ревизии</target>
+                <target>Номер/хэш ревизии</target>
             </trans-unit>
             <trans-unit id="da96f2fb26318fdaf60dcf97ed5e1152">
                 <source>Revision number/hash of previous commit</source>
-                <target>Номер/Хэш ревизии предыдущего коммита</target>
+                <target>Номер/хэш ревизии предыдущего коммита</target>
             </trans-unit>
             <trans-unit id="7c47edb0bea8503cb30ab1a2b28f9d0c">
                 <source>Filename and path, from root of repository</source>
@@ -254,11 +254,11 @@
             </trans-unit>
             <trans-unit id="2baee2cadf2a2e599f1186614e99419c">
                 <source>Commit details page</source>
-                <target>Страница детализации коммита</target>
+                <target>Страница деталей коммита</target>
             </trans-unit>
             <trans-unit id="890f69ff125831668ceafaad0786b6e1">
                 <source>File log page</source>
-                <target>Страница файла отчетов</target>
+                <target>Страница файла журнала</target>
             </trans-unit>
             <trans-unit id="b8b710db82944245fd16a9b326f56879">
                 <source>File blob/view page</source>
@@ -305,7 +305,7 @@
             </trans-unit>
             <trans-unit id="a6fda05ffbf14489419e9c3766103d79">
                 <source>There are no code checkins for this issue</source>
-                <target>Нет связанных коммитов с этой задачей</target>
+                <target>Нет коммитов, связанных с этой задачей</target>
             </trans-unit>
             <trans-unit id="eb92025cb8c66f1850c13a9b602a1856">
                 <source>Show all</source>
@@ -343,7 +343,7 @@
             </trans-unit>
             <trans-unit id="649fdfc207df25011ea7cb22bbcdb2c5">
                 <source>Branch filters</source>
-                <target>Фильтр веток</target>
+                <target>Фильтры веток</target>
             </trans-unit>
         </body>
     </file>
