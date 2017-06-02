@@ -41,7 +41,7 @@
             </trans-unit>
             <trans-unit id="02536e4f321db0c679cb74ed94dc5b88">
                 <source>Issue severity</source>
-                <target>Опасность задачи</target>
+                <target>Серьезность задачи</target>
             </trans-unit>
             <trans-unit id="eea46167f99b2f1e56de823a86fe422e">
                 <source>Issue category</source>
@@ -256,6 +256,7 @@
             </trans-unit>
             <trans-unit id="36f706d897578e3562d09b253c9fc8df">
                 <source>Board tailored for scrum-style workflows, card view as scrum stories with estimates.</source>
+                <target>Доска для рабочих процессов в стиле скрам, с карточками для пожеланий скрам с расчетными значениями.</target>
             </trans-unit>
             <trans-unit id="b05710d4937d203146956661dd6e0831">
                 <source>Kanban board with workload limits and powerful plan mode.</source>
@@ -287,9 +288,11 @@
             </trans-unit>
             <trans-unit id="6511c442e4a556da950ccbebb6e558ef">
                 <source>Task issuetype</source>
+                <target>Тип задачи для задания</target>
             </trans-unit>
             <trans-unit id="bee9369fe68567e00400b5c5e9c90228">
                 <source>Select task issuetype</source>
+                <target>Выберите тип задачи для задания</target>
             </trans-unit>
             <trans-unit id="7a0a00d3faeb2744566da9908ab66f3f">
                 <source>Backlog search</source>
@@ -309,6 +312,7 @@
             </trans-unit>
             <trans-unit id="d018919e7198223dfe2ab2d4f96a50a5">
                 <source>The backlog search is used to display the backlog - a list of unassigned issues for this board.</source>
+                <target>Поиск по журналу пожеланий используется для отображения журнала пожеланий - списка неназначенных задач этой доски.</target>
             </trans-unit>
             <trans-unit id="1037dc1b4836263210080bccc23d641d">
                 <source>Whiteboard mode settings</source>
@@ -328,9 +332,11 @@
             </trans-unit>
             <trans-unit id="5ae5165d3731fcd2dd7e38f9f1a4aeb4">
                 <source>Issues detail swimlanes</source>
+                <target>Дорожки деталей задач</target>
             </trans-unit>
             <trans-unit id="7136396ae0db832c7944cbd0a6d8808d">
                 <source>Level of service swimlane</source>
+                <target>Уровень дорожки сервиса</target>
             </trans-unit>
             <trans-unit id="14d49eb8c543c2fe92a75a755b2007d9">
                 <source>Don't use swimlanes</source>
@@ -338,18 +344,23 @@
             </trans-unit>
             <trans-unit id="9ccce55c21e547cdcf976351112f555c">
                 <source>The board has a swimlane for each issue of one or more issue type(s).</source>
+                <target>На доске есть дорожка для каждой задачи одного или нескольких типов задач.</target>
             </trans-unit>
             <trans-unit id="4691406763677aef735c90c78fd2d5ea">
                 <source>Issue detail swimlanes</source>
+                <target>Дорожки деталей задач</target>
             </trans-unit>
             <trans-unit id="a119c8b7aeed47b34eaed0496fafafcd">
                 <source>The board is grouped in swimlanes where issues that share the same characteristics are grouped together.</source>
+                <target>Доска сгруппирована на дорожки, где собраны задачи с одинаковыми характеристиками.</target>
             </trans-unit>
             <trans-unit id="223b1c2b471954744f980e99fa13f3be">
                 <source>No general grouping, but an increased level of service swimlane at the top for expediting issues</source>
+                <target>Без общей группировки, но с увеличенным уровнем дорожки сервиса сверху для ускоренный задач</target>
             </trans-unit>
             <trans-unit id="d6ab8e812731d11855c0e72ebda8e182">
                 <source>There will be no swimlanes on the board</source>
+                <target>На доске не будет дорожек</target>
             </trans-unit>
             <trans-unit id="40e33541bff1d98e682e0b10f60ec2ae">
                 <source>Issuetype(s)</source>
@@ -361,6 +372,7 @@
             </trans-unit>
             <trans-unit id="b9ff87953e887212a6e7af7602db9fd6">
                 <source>The whiteboard will have separate swimlanes for all issues that is of a certain type. Specify which issuetype qualifies as a swimlane.</source>
+                <target>На доске будут представлены отдельные дорожки для всех задач некоторого типа. Укажите, для какого типа задач создавать дорожку.</target>
             </trans-unit>
             <trans-unit id="be87d8c3de2675bbc53f9442af9d8feb">
                 <source>Group by</source>
@@ -368,9 +380,11 @@
             </trans-unit>
             <trans-unit id="9dbfd8120239e9d5f982dcb26acb6bce">
                 <source>Select detail to group by</source>
+                <target>Выберите детали для группировки</target>
             </trans-unit>
             <trans-unit id="da7f799993a5f629f77b8ebed979acc1">
                 <source>The whiteboard will have separate swimlanes / groups for issues that share the same characteristics. Specify which issue detail to group issues by.</source>
+                <target>На доске будут представлены отдельные дорожки / группы для задач с одинаковыми характеристиками. Укажите, по каким деталям задачи следует группировать задачи.</target>
             </trans-unit>
             <trans-unit id="f2582a7f2a679a6c1b09803e63d44015">
                 <source>Issue detail</source>
@@ -378,6 +392,7 @@
             </trans-unit>
             <trans-unit id="3b019eb51122f50cb783f5fb76060f1b">
                 <source>Select issue field for expedite swimlane</source>
+                <target>Выберите поле задачи для ускоренной дорожки</target>
             </trans-unit>
             <trans-unit id="3352a8a0aa4f615a9a7cbde4970cfebf">
                 <source>Field value(s)</source>
@@ -389,9 +404,11 @@
             </trans-unit>
             <trans-unit id="547d5dbc9b242ea89881f48441ea00d1">
                 <source>The whiteboard will have a separate swimlane at the top for prioritized issues, like a expedite line / fastlane. Select which issue details puts issues in this swimlane.</source>
+                <target>На доске будет представлена отдельная дорожка сверху для задач высокого приоритета, аналогично ускоренной дорожке. Выберите, в зависимости от каких деталей задач они будут помещаться на эту дорожку.</target>
             </trans-unit>
             <trans-unit id="eae82d969dc2d245569faef81daac880">
                 <source>Whiteboard custom issue fields info</source>
+                <target>Информация о настраиваемых полях задачи на доске</target>
             </trans-unit>
             <trans-unit id="cea3e0e48ce5f26e2fc5ddbb8a7f3470">
                 <source>Issue field(s)</source>
@@ -403,6 +420,7 @@
             </trans-unit>
             <trans-unit id="f508aa8a2c264becb95bae29ec4c39bb">
                 <source>Specify which custom issue fields should also be visible for issue.</source>
+                <target>Укажите, какие настраиваемые поля задачи должны быть видны.</target>
             </trans-unit>
             <trans-unit id="827e1baff2fd19587d3c6f251eb8d1a8">
                 <source>%cancel or %save_board</source>

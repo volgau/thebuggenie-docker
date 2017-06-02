@@ -558,7 +558,7 @@
             </trans-unit>
             <trans-unit id="ae255fa3d1c511788baa8a491fa6c37f">
                 <source>Severity changed: %text</source>
-                <target>Опасность изменена: %text</target>
+                <target>Серьезность изменена: %text</target>
             </trans-unit>
             <trans-unit id="4b51629799d44d1d40daf53510fb579f">
                 <source>Resolution changed: %text</source>

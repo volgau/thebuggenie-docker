@@ -313,7 +313,7 @@
             </trans-unit>
             <trans-unit id="5251014c27cdbf7dfb2e12ce3033a50d">
                 <source>Find project article (press enter to search)</source>
-                <target>Найти статью проекта (нажмите enter для поиска)</target>
+                <target>Найти статью проекта (нажмите Ввод для поиска)</target>
             </trans-unit>
             <trans-unit id="08cab6f65f1a43b6c901f13264046666">
                 <source>Global content</source>

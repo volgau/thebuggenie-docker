@@ -306,7 +306,7 @@
             </trans-unit>
             <trans-unit id="fd92715bf001b88b389e6892ce48a104">
                 <source>A Pain - users won't like this once they notice it / a moderate number of users won't buy</source>
-                <target>Проблема - пользователям не понравится это, как только они об этом узнают / некоторое количество пользователей не станет покупать</target>
+                <target>Проблема - пользователям не понравится это, как только они это заметят / некоторое количество пользователей не станет покупать продукт</target>
             </trans-unit>
             <trans-unit id="45bfc286c692d8fda17a5b73bc0b58dc">
                 <source>Nuisance - not a big deal but noticeable / extremely unlikely to affect sales</source>
@@ -394,6 +394,7 @@
             </trans-unit>
             <trans-unit id="c54f17d52a3ee6cfd3ce94e3aa9de1ac">
                 <source>A file was uploaded.%link_to_file nnThis comment was attached: %comment</source>
+                <target>Файл был подгружен.%link_to_file nnБыл прикреплен следующий комментарий: %comment</target>
             </trans-unit>
             <trans-unit id="dc47fbd16fd9853595a1c0b85e016c67">
                 <source>A file was uploaded.%link_to_file</source>
@@ -477,7 +478,7 @@
             </trans-unit>
             <trans-unit id="083b021a4e92dbb5f70381e2fb771e3c">
                 <source>Not determined</source>
-                <target>Неопределено</target>
+                <target>Не определено</target>
             </trans-unit>
             <trans-unit id="88183b946cc5f0e8c96b2e66e1c74a7e">
                 <source>Unknown</source>
@@ -489,7 +490,7 @@
             </trans-unit>
             <trans-unit id="f33c5f8fcc932f3605054e7ae2a0fe11">
                 <source>Not being worked on</source>
-                <target>Не ведется работа по</target>
+                <target>Работа не ведется</target>
             </trans-unit>
             <trans-unit id="b2855fa74467ff5d5bfaaeb0255d3525">
                 <source>Not owned by anyone</source>
@@ -783,7 +784,7 @@
             </trans-unit>
             <trans-unit id="fb7c6c16f5330926902273c2e987cf5c">
                 <source>Mark as not duplicate</source>
-                <target>Ометить как &quot;не дубликат&quot;</target>
+                <target>Пометить как &quot;не дубликат&quot;</target>
             </trans-unit>
             <trans-unit id="cc483e83eac6a3f06c3ab418f349bd30">
                 <source>Possibly mark as duplicate</source>
@@ -791,11 +792,11 @@
             </trans-unit>
             <trans-unit id="ae63b7eb5972e953735a99f045f81d99">
                 <source>Start logging time</source>
-                <target>Начать время выполнения</target>
+                <target>Начать запись времени выполнения</target>
             </trans-unit>
             <trans-unit id="4fe9d263171c357246bacf179953d0ce">
                 <source>Stop logging time and optionally add time spent</source>
-                <target>Остановить время выполнения, и опционально добавить затраченное время</target>
+                <target>Остановить запись времени выполнения и опционально добавить затраченное время</target>
             </trans-unit>
             <trans-unit id="1e1d4024d8daeab72430211870f14634">
                 <source>Clear issue assignee</source>
@@ -807,7 +808,7 @@
             </trans-unit>
             <trans-unit id="c313511e5e2ee00c7babddf675847d2f">
                 <source>Clear issue percent</source>
-                <target>Очистить проценты задачи</target>
+                <target>Сбросить процент выполнения задачи</target>
             </trans-unit>
             <trans-unit id="185b79e6d1758ea12a8ea91032a2496c">
                 <source>Clear issue reproducability</source>
@@ -819,7 +820,7 @@
             </trans-unit>
             <trans-unit id="23de64c049953fc7e19670069be1851a">
                 <source>Clear issue milestone</source>
-                <target>Очистить этап задачи</target>
+                <target>Сбросить этап задачи</target>
             </trans-unit>
             <trans-unit id="ab4f59523e60c3d27103ee8b307725a0">
                 <source>Set issue priority</source>
@@ -827,7 +828,7 @@
             </trans-unit>
             <trans-unit id="b206337c497c02a5ebfdeda1ce1e394f">
                 <source>Set issue percent</source>
-                <target>Установить процент задачи</target>
+                <target>Установить процент выполнения задачи</target>
             </trans-unit>
             <trans-unit id="d0b3d4c3c32fe2e80e56801c97d85566">
                 <source>Set issue reproducability</source>
@@ -835,7 +836,7 @@
             </trans-unit>
             <trans-unit id="c7e3e5ed93a78e1526accd870e46c2b0">
                 <source>Set issue resolution</source>
-                <target>Установить решение задачи</target>
+                <target>Задать решение задачи</target>
             </trans-unit>
             <trans-unit id="d94b55f1c4be77000b3935c4a12d6b27">
                 <source>Set issue status</source>
@@ -847,11 +848,11 @@
             </trans-unit>
             <trans-unit id="f399eda2c32e42f1367930321d267928">
                 <source>Clear issue field %key</source>
-                <target>Очистить поле %key у задачи</target>
+                <target>Очистить поле %key задачи</target>
             </trans-unit>
             <trans-unit id="f0b55dbbc289524a7c6759455a8bf70a">
                 <source>Set issue field %key</source>
-                <target>Установить поле %key у задачи</target>
+                <target>Установить поле %key задачи</target>
             </trans-unit>
         </body>
     </file>
@@ -860,11 +861,11 @@
         <body>
             <trans-unit id="bda627a4908d2bd8db65a99e9eb89ff1">
                 <source>Max number of assigned issues</source>
-                <target>Максимам назначенных задач</target>
+                <target>Макс. число назначенных задач</target>
             </trans-unit>
             <trans-unit id="553d56182b10c9c58f64a7a65e4360b3">
                 <source>User must be member of a certain team</source>
-                <target>Пользователь должен быть участником какой-либо команды</target>
+                <target>Пользователь должен быть участником определенной команды</target>
             </trans-unit>
             <trans-unit id="89c82842887dfd68a026bc2e54d4ccea">
                 <source>Issue must be in milestone</source>
@@ -905,6 +906,7 @@
         <body>
             <trans-unit id="683e2b9d5dec2722211eeae8af0c851c">
                 <source>You are either not allowed to access this page or don't have access to perform this action</source>
+                <target>Вы не имеете доступа к этой странице или же не имеете доступа для выполнения этого действия</target>
             </trans-unit>
         </body>
     </file>
@@ -985,7 +987,7 @@
             </trans-unit>
             <trans-unit id="e336614996314ade194b185d71eb7d06">
                 <source>Read + write access: &quot;Issue fields&quot; configuration page</source>
-                <target>Доступ для чтения + запись: Страница настроек «Поля задачи»</target>
+                <target>Доступ для чтения + запись: Страница настроек &quot;Поля задачи&quot;</target>
             </trans-unit>
             <trans-unit id="f893bc8b8a3c66a3c2e7a943e9153541">
                 <source>Read-only access: &quot;Users, teams and groups&quot; configuration page</source>
@@ -1045,7 +1047,7 @@
             </trans-unit>
             <trans-unit id="2f402634eac1d6ecb9b319966581465c">
                 <source>Can access the &quot;My account&quot; page</source>
-                <target>Имеет доступ к странице &quot;Мой аккаунт&quot;</target>
+                <target>Имеет доступ к странице &quot;Моя учетная запись&quot;</target>
             </trans-unit>
             <trans-unit id="8102eedc2b95ca49856a21374810a1ba">
                 <source>Can change own password</source>
@@ -1069,6 +1071,7 @@
             </trans-unit>
             <trans-unit id="6cb75d706713b9a635759c15cc2a96d5">
                 <source>Can access the project agile pages without planning page</source>
+                <target>Может получить доступ к страницам гибкой разработки, за исключением страницы планирования</target>
             </trans-unit>
             <trans-unit id="67ec38dfad7fdea259639298e38a2b58">
                 <source>Can access the project planning pages</source>
@@ -1144,6 +1147,7 @@
             </trans-unit>
             <trans-unit id="7a03b68f378150444d304c4376929104">
                 <source>Can manage project releases, editions and components</source>
+                <target>Может управлять релизами, редакциями и компонентами</target>
             </trans-unit>
             <trans-unit id="3d0010479721c311bfd161f16e06e7a7">
                 <source>Can edit project details and settings</source>
@@ -1171,6 +1175,7 @@
             </trans-unit>
             <trans-unit id="de837d23a62d84dc4ac27635cccca86e">
                 <source>Can change issue access policy</source>
+                <target>Может изменять политику доступа задачи</target>
             </trans-unit>
             <trans-unit id="88ee461b9851b7a9fbafece737a71cef">
                 <source>Can create issues, edit basic information on issues reported by the user and close/re-open them</source>
@@ -1246,7 +1251,7 @@
             </trans-unit>
             <trans-unit id="b2cdfc6d89c15a0bb1147785bf18c23f">
                 <source>Can edit issue severity</source>
-                <target>Может редактировать строгость задачи</target>
+                <target>Может редактировать серьезность задачи</target>
             </trans-unit>
             <trans-unit id="26cb5df1e43c5619699a6c9a32ea0e49">
                 <source>Can edit issue reproducability</source>
@@ -1274,12 +1279,15 @@
             </trans-unit>
             <trans-unit id="688da7c97a935b3b97260cb3e8bbbf4f">
                 <source>Can transition issue</source>
+                <target>Может выполнить переход задачи</target>
             </trans-unit>
             <trans-unit id="787b24c2868014ac30187179ecfd9846">
                 <source>Can edit issue scrum color</source>
+                <target>Может редактировать цвет задачи в скрам</target>
             </trans-unit>
             <trans-unit id="853cc3dfefcb794c0669826b6374dcfa">
                 <source>Can edit issue user pain</source>
+                <target>Может редактировать проблемность задачи</target>
             </trans-unit>
             <trans-unit id="451fc3adac956be55d04cb80d863f419">
                 <source>Can change custom field values for issues reported by the user</source>
@@ -1493,7 +1501,7 @@
             </trans-unit>
             <trans-unit id="8bc212f48680748479bbd322d4d73d3f">
                 <source>Account details</source>
-                <target>Информация об аккаунте</target>
+                <target>Информация об учетной записи</target>
             </trans-unit>
             <trans-unit id="2938c7f7e560ed972f8a4f68e80ff834">
                 <source>Dashboard</source>
@@ -1505,7 +1513,7 @@
             </trans-unit>
             <trans-unit id="29afbc227d97b08a97ca3c7bc254c409">
                 <source>Roadmap</source>
-                <target>План работ</target>
+                <target>Дорожная карта</target>
             </trans-unit>
             <trans-unit id="d33594c259b9144db500a7f4796aee40">
                 <source>Team overview</source>
@@ -1566,9 +1574,11 @@
             </trans-unit>
             <trans-unit id="157cc2b42a7565f57ebd38f173ddbf50">
                 <source>Show notifications about issue updates that are grouped as one notification based on interval in minutes:</source>
+                <target>Показывать уведомления об обновлении задач, сгруппированные в одно уведомление на основе интервала в минутах:</target>
             </trans-unit>
             <trans-unit id="9a63741b2e595bc5fdbab2fb76061576">
                 <source>Notify only to notifications box when I am active on system</source>
+                <target>Когда я активен в системе, показывать уведомления только на значке уведомлений</target>
             </trans-unit>
             <trans-unit id="f7673aa478166eaff626ac655892b7e8">
                 <source>Automatically subscribe to issues I posted</source>
@@ -1779,7 +1789,7 @@
             </trans-unit>
             <trans-unit id="3979bb684920e9e9dc86e266f93d8c87">
                 <source>Severity levels</source>
-                <target>Уровни строгости</target>
+                <target>Уровни серьезности</target>
             </trans-unit>
             <trans-unit id="af1b98adf7f686b84cd0b443e022b7a0">
                 <source>Categories</source>
@@ -2471,7 +2481,7 @@
             </trans-unit>
             <trans-unit id="8176f05ad582d7abc7fb2aa393be1d6f">
                 <source>Show user details</source>
-                <target>Показать подробности о пользователе</target>
+                <target>Подробнее о пользователе</target>
             </trans-unit>
             <trans-unit id="3fef98567f60952f48a3522f5db3b442">
                 <source>Delete this user</source>
@@ -2479,7 +2489,7 @@
             </trans-unit>
             <trans-unit id="48e843ddefa03aad93151c60dd487893">
                 <source>Remove user from this scope</source>
-                <target>Убрать пользователя из области</target>
+                <target>Удалить пользователя из этой области</target>
             </trans-unit>
             <trans-unit id="09a079e0dd829abf5ac4ef399fd10a0b">
                 <source>Cancel invitation</source>
@@ -2669,6 +2679,7 @@
             </trans-unit>
             <trans-unit id="708f1982231a1ce2b84eec6851c07149">
                 <source>To keep the comment trail clean in issues, you can select not to post system comments when an issue is updated.</source>
+                <target>Для поддержания истории комментариев в чистоте, Вы можете выбрать опцию не добавлять системные комментарии при обновлении задачи.</target>
             </trans-unit>
             <trans-unit id="1ddbe6e7c185f117c2f45d288e0f20b4">
                 <source>The issue log will always be updated regardless of this setting.</source>
@@ -2704,7 +2715,7 @@
             </trans-unit>
             <trans-unit id="01cc60a3921898f1ec6c7e3bf14981f1">
                 <source>Fancy numbering, with highlighted lines</source>
-                <target>Необычная нумерация, в отмеченных строках</target>
+                <target>Нумерация с подсветкой строк</target>
             </trans-unit>
             <trans-unit id="d9cd11579279e9c5a8c9226957a1f59e">
                 <source>Normal numbering</source>
@@ -2724,6 +2735,7 @@
             </trans-unit>
             <trans-unit id="d6c1cf39de260c610bc8183ca231bf7f">
                 <source>When using fancy numbering, you can have a line highlighted at a regular interval. Set the default interval to use here, if not otherwise specified</source>
+                <target>При использовании нумерации с подсветкой строк, строки подсвечиваются через регулярные интервалы. Задайте здесь значение интервала по умолчанию, которое будет использоваться в том случае, если не указано иное значение</target>
             </trans-unit>
             <trans-unit id="3777271842c8f37c819499a0a06b30a6">
                 <source>Notification poll interval</source>
@@ -2731,6 +2743,7 @@
             </trans-unit>
             <trans-unit id="6ebbf96924922f25abd966da49cbfd89">
                 <source>Polling is used to check for new user notifications. Set the default polling interval in seconds, or 0 to disable polling.</source>
+                <target>Для проверки наличия новых уведомлений пользователя, производится периодический опрос. Задайте значение по умолчанию интервала опроса в секундах, или укажите 0 для отключения опроса.</target>
             </trans-unit>
         </body>
     </file>
@@ -2747,6 +2760,7 @@
             </trans-unit>
             <trans-unit id="6fa4f4bdb21a78a65cb464c8c0943d13">
                 <source>Trying to list all users in this group may time out or take a while. Are you sure you want to list all users in this group?</source>
+                <target>Показ всех пользователей этой группы может занять довольно продолжительное время. Вы действительно хотите отобразить всех пользователей этой группы?</target>
             </trans-unit>
             <trans-unit id="7482b74b4a906178b9be34503c6213ad">
                 <source>Clone this user group</source>
@@ -2762,6 +2776,7 @@
             </trans-unit>
             <trans-unit id="73865e33224d41dc5ee32474b3cbefa8">
                 <source>If you delete this group, then all users in this group will be disabled until moved to a different group</source>
+                <target>Если удалить эту группу, то все состоящие в ней пользователи будут отключены, пока не будут перемещены в другую группу.</target>
             </trans-unit>
             <trans-unit id="d1bfb4017b43c2d4fd71985bdd711185">
                 <source>The default group cannot be deleted</source>
@@ -2831,6 +2846,7 @@
             </trans-unit>
             <trans-unit id="73766228862843deb358270f5600fc7c">
                 <source>Other items - such as workflow steps - may depend on this item to exist. Remove the dependant item or unlink it from this item to continue.</source>
+                <target>Другие элементы - такие, как шаги рабочего процесса - могут зависеть от существования этого элемента. Удалите зависимый элемент или отсоедините его от этого элемента для продолжения.</target>
             </trans-unit>
             <trans-unit id="2c78506faf03a753db4d6017cd8cff18">
                 <source>Select this color</source>
@@ -2929,6 +2945,7 @@
             </trans-unit>
             <trans-unit id="0ae33ae4819612b5fd8611f6c03a023a">
                 <source>This will also remove the value of this issue field from all issues, along with any possible options this field can have.</source>
+                <target>При этом также будет удалено значение этого поля задачи из всех задач, вместе со всеми возможными настройками, которые может иметь это поле.</target>
             </trans-unit>
             <trans-unit id="a1fa27779242b4902f7ae3bdd5c6d508">
                 <source>Type</source>
@@ -2940,6 +2957,7 @@
             </trans-unit>
             <trans-unit id="981f3d8b9ba87110195ad07ca84e14a8">
                 <source>This will also remove the value of this custom field from all issues, along with any possible options this field can take.</source>
+                <target>При этом также будет удалено значение этого настраиваемого поля задачи из всех задач, вместе со всеми возможными настройками, которые может иметь это поле.</target>
             </trans-unit>
             <trans-unit id="b021df6aac4654c454f46c77646e745f">
                 <source>Label</source>
@@ -2996,7 +3014,7 @@
             </trans-unit>
             <trans-unit id="c5f4a3bc83b803499f4d9c693e4ad1c0">
                 <source>Remove issuetype</source>
-                <target>Убрать тип задачи</target>
+                <target>Удалить тип задачи</target>
             </trans-unit>
             <trans-unit id="a742b47830521db87ecd4391f51a944a">
                 <source>Delete this issue type?</source>
@@ -3004,6 +3022,7 @@
             </trans-unit>
             <trans-unit id="d21e98cc1566ed0c3eb9dab76f59f39f">
                 <source>Do you really want to delete this issue type? Issues with this issue type will be unavailable.</source>
+                <target>Вы действительно хотите удалить этот тип задачи? Задачи, относящиеся к этому типу, станут недоступны.</target>
             </trans-unit>
             <trans-unit id="1f056fd40086715e14e995d434162a12">
                 <source>This action cannot be reverted</source>
@@ -3043,9 +3062,11 @@
             </trans-unit>
             <trans-unit id="03d650ad0b08b02c87e792f07ab54fd5">
                 <source>Users cannot report new issues with this issue type, but may choose it when editing an issue</source>
+                <target>Пользователи не могут создавать новые задачи этого типа, но могут выбрать этот тип при редактировании задачи</target>
             </trans-unit>
             <trans-unit id="9d047c2f5d50d9b6348629a076214392">
                 <source>Whether this issue type is enabled for reporting or not</source>
+                <target>Определяется, доступен или нет этот тип задачи для создания</target>
             </trans-unit>
             <trans-unit id="4202ef115ebede37eb22297113f5fb32">
                 <source>Redirect</source>
@@ -3065,6 +3086,7 @@
             </trans-unit>
             <trans-unit id="97aec05961e6374e989032b422f60ea6">
                 <source>Whether to forward the user to the reported issue after it has been reported</source>
+                <target>Определяет, перенаправлять ли пользователя к вновь созданной задаче после ее созданий</target>
             </trans-unit>
         </body>
     </file>
@@ -3093,6 +3115,7 @@
             </trans-unit>
             <trans-unit id="f2437e4bbb9b406557fe470ab8032810">
                 <source>This issuetype scheme can not be deleted as it is being used by %number_of_projects project(s)</source>
+                <target>Схема типов задач не может быть удалена, так как она используется в %number_of_projects проектах</target>
             </trans-unit>
             <trans-unit id="721398f6d117c281ad74aa931f1d75d1">
                 <source>Delete this issue type scheme</source>
@@ -3157,7 +3180,7 @@
             </trans-unit>
             <trans-unit id="8f50a1a5b168b0f0ebe639ffa1987270">
                 <source>Targetted for milestone</source>
-                <target>Запланирован этап</target>
+                <target>Целевой этап</target>
             </trans-unit>
             <trans-unit id="b6f4a2ec6356bbd56d49f2096bf9d3d3">
                 <source>Owner</source>
@@ -3435,6 +3458,7 @@
             </trans-unit>
             <trans-unit id="03b6467407c8843969161e9e4b97f79c">
                 <source>Please see [[ConfigurePermissions]] for more information about how permissions work in general.</source>
+                <target>Обратитесь к статье [[ConfigurePermissions]] для получения информации о том, как работают разрешения.</target>
             </trans-unit>
             <trans-unit id="63e17b7f19fa3212255151c891cd7ea0">
                 <source>Can set</source>
@@ -3500,6 +3524,7 @@
             </trans-unit>
             <trans-unit id="7f05bda57cb24b0456692c834712af86">
                 <source>You are now editing permissions in advanced mode. This is usually not recommended unless you know what you are doing - you may want to look at team permissions and project roles instead. Proceed at your own risk.</source>
+                <target>Сейчас Вы редактируете разрешения в расширенном режиме. Как правило, это не рекомендуется, если Вы не знаете точно, что делаете. Возможно, вместо этого, Вам нужно взглянуть на разрешения команд и ролей проекта. Вы можете продолжить - на свой страх и риск.</target>
             </trans-unit>
         </body>
     </file>
@@ -3512,6 +3537,7 @@
             </trans-unit>
             <trans-unit id="fae4dfa7440230894f4d8dabcde82b35">
                 <source>This is the project key, used in most places when accessing the project</source>
+                <target>Это ключ проекта, который используется в большинстве мест при доступе к проекту</target>
             </trans-unit>
             <trans-unit id="9f3c1259ccc33cc63541163407269e27">
                 <source>Subproject of</source>
@@ -3527,7 +3553,7 @@
             </trans-unit>
             <trans-unit id="b05090ee6c5818e1b0bf324c00687fef">
                 <source>Show project details</source>
-                <target>Показать детали проекта</target>
+                <target>Подробнее о проекте</target>
             </trans-unit>
             <trans-unit id="7473f4f6deebafbc2ac089501c7af788">
                 <source>Edit project permissions</source>
@@ -3547,9 +3573,11 @@
             </trans-unit>
             <trans-unit id="96a40042720548bdb8c0f958678ead71">
                 <source>If you archive a project, it is placed into a read only mode, where the project and its issues can no longer be edited. This will also prevent you from creating new issues, and will hide it from project lists (it can be viewed from an Archived Projects list). This will not, however, affect any subprojects this one has.</source>
+                <target>Если архивировать проект, это обеспечит доступ к нему только для чтения. В этом режиме проект и его задачи не могут быть изменены. Также блокируется создание новых задач и проект скрывается в списках проектов (но отображается в списке архивных проектов). Тем не менее, архивация проекта не затрагивает его подпроекты.</target>
             </trans-unit>
             <trans-unit id="d77d2fe340e8b8167c34ec62fb3a6e9a">
                 <source>If you need to reactivate this subproject, you can do this from projects configuration.</source>
+                <target>Если Вам нужно реактивировать этот подпроект, Вы можете сделать это из настроек проекта.</target>
             </trans-unit>
             <trans-unit id="9cffaa001a3ecfe272316a595cb536ae">
                 <source>Archive project</source>
@@ -3561,6 +3589,7 @@
             </trans-unit>
             <trans-unit id="25c401a4e9e6dbab68eab55ab469dbc5">
                 <source>Deleting this project will prevent users from accessing it or any associated data, such as issues.</source>
+                <target>Удаление этого проекта приведет к тому, что пользователи не смогут более получить доступ к любым связанным с ним данным, в том числе задачам.</target>
             </trans-unit>
             <trans-unit id="36bb30728378548334ab33f1d5b2c2c8">
                 <source>Close popup</source>
@@ -3577,6 +3606,7 @@
             </trans-unit>
             <trans-unit id="4a44663bb1665c98f395a9fce96021d0">
                 <source>This is the language that will be used in The Bug Genie. Depending on other settings, users may change the language displayed to them.</source>
+                <target>Это язык, который будет использоваться The Bug Genie. В зависимости от других настроек, отдельные пользователи могут использовать иные языки интерфейса. </target>
             </trans-unit>
             <trans-unit id="f594c0052b0886932fe51eedb83fb2c3">
                 <source>Charset</source>
@@ -3588,6 +3618,7 @@
             </trans-unit>
             <trans-unit id="6249ec65cc1aad994898f39369f042b7">
                 <source>What charset to use for the selected language - leave blank to use the charset specified in the language file</source>
+                <target>Какую кодировку символов использовать для выбранного языка - оставьте пустым для использования кодировки, указанной в языковом файле</target>
             </trans-unit>
             <trans-unit id="c7c593b1f66d7316b1f17bfb3d191da9">
                 <source>Server timezone</source>
@@ -3599,6 +3630,7 @@
             </trans-unit>
             <trans-unit id="b0907175869afcd0a2196830a3e14fd9">
                 <source>The timezone for the server hosting The Bug Genie. Make sure this is the same as the timezone the server is running in - this is not necessarily the same as your own timezone!</source>
+                <target>Часовой пояс сервера, на котором развернут The Bug Genie. Убедитесь, что значение совпадает с часовым поясом, в котором размещен сервер - оно не обязательно совпадает с Вашим часовым поясом!</target>
             </trans-unit>
             <trans-unit id="e3afec9f624c81439ffed22aa3398052">
                 <source>The time is now: %time</source>
@@ -3627,6 +3659,7 @@
             </trans-unit>
             <trans-unit id="d5296b8207977f80517f7b982180622c">
                 <source>Users assigned via this role will be unassigned, and depending on other roles their project permissions may be reset.</source>
+                <target>Назначение пользователей, выполненное посредством ролей, будет снято, и, в зависимости от других ролей, их разрешения относительно проекта могут быть сброшены.</target>
             </trans-unit>
             <trans-unit id="b91bbf93fded357609cbb6463828b7da">
                 <source>%number_of_permissions permission(s)</source>
@@ -3697,6 +3730,7 @@
             </trans-unit>
             <trans-unit id="ece5fadc83de9cbbb3044f503feaebd7">
                 <source>This is the default scope. It will be loaded and used whenever The Bug Genie is accessed on a hostname for which there is not explicit scope defined.</source>
+                <target>Это область по умолчанию. Она будет загружаться и использоваться всякий раз, когда будет производиться доступ к The Bug Genie по имени хоста, для которого не определена отдельная область.</target>
             </trans-unit>
         </body>
     </file>
@@ -3733,6 +3767,7 @@
             </trans-unit>
             <trans-unit id="030ab2c015f6137680aad6cda333cb28">
                 <source>When you are done, click &quot;%update_icons&quot; to upload the new icons</source>
+                <target>Когда будете готовы, нажмите &quot;%update_icons&quot; для подгрузки новых значков</target>
             </trans-unit>
             <trans-unit id="c905ef314967b36e5011a103c12fd366">
                 <source>Update icons</source>
@@ -3769,6 +3804,7 @@
             </trans-unit>
             <trans-unit id="4d81d03898d3e4beb9873a8cfd505280">
                 <source>If you delete this team, then all users in this team will be lose the permissions given via this team</source>
+                <target>Если Вы удалите эту команду, то все входящие в нее пользователи потеряют разрешения, выданные им как участникам этой команды</target>
             </trans-unit>
             <trans-unit id="e1f888ee6390748457573652ad4edd51">
                 <source>Please specify what parts of this team you want to clone</source>
@@ -3826,6 +3862,7 @@
             </trans-unit>
             <trans-unit id="6d70df8ee4aa09453c54f9ac535ddb6a">
                 <source>Removing the user from this team will remove all automatically inherited permissions from the user. You can easily add the user back to the team in the future.</source>
+                <target>Исключение пользователя из этой команды приведет к удалению автоматически унаследованных пользователем разрешений. В последствии, Вы можете вернуть пользователя обратно в команду.</target>
             </trans-unit>
             <trans-unit id="40fe980d429f1f2ef27363c82344e118">
                 <source>Remove from team</source>
@@ -3850,6 +3887,7 @@
             </trans-unit>
             <trans-unit id="47a4566e1ef4e7a2093d72bf351e72ce">
                 <source>Please click the download link below and download the update file. Unpack the downloaded archive in the theme folder (%theme_folder), overwriting the current theme (%current_theme_folder) on this server, replacing the old contents. When you are done, refresh this page.</source>
+                <target>Пожалуйста, нажмите на ссылку загрузки и скачайте файл обновления. Распакуйте загруженный архив в папку темы (%theme_folder), перезаписав существующую тему (%current_theme_folder) на сервере, заменяя старое содержимое. По завершении, обновите эту страницу.</target>
             </trans-unit>
             <trans-unit id="5652b9c7957e6772e9f1e99c56944258">
                 <source>%cancel or %download_update_file</source>
@@ -3882,10 +3920,11 @@
             </trans-unit>
             <trans-unit id="6ef3d0d018da37f6af807251d78ec06a">
                 <source>You need a valid user account to access any content</source>
+                <target>Требуется действительная учетная запись пользователя для доступа к любому содержимому.</target>
             </trans-unit>
             <trans-unit id="17ca1c429c9bf38b219b1bc7a8cd9201">
                 <source>Use the guest user account</source>
-                <target>Использовать гостевой аккаунт</target>
+                <target>Использовать гостевую учетную запись</target>
             </trans-unit>
             <trans-unit id="f5cb42d1c4d7f642f5e103bb2ce6f816">
                 <source>Guest user is authenticated</source>
@@ -3893,7 +3932,7 @@
             </trans-unit>
             <trans-unit id="a54c4f42ea1216db0ed8babbebe4f395">
                 <source>No, the default user is a guest account</source>
-                <target>Нет, пользователь по умолчанию имеет гостевой аккаунт</target>
+                <target>Нет, пользователь по-умолчанию является гостевой учетной записью</target>
             </trans-unit>
             <trans-unit id="13887b6f5d4f820940a3b5a747231bf2">
                 <source>Yes, the default user is a normal account</source>
@@ -3929,6 +3968,7 @@
             </trans-unit>
             <trans-unit id="78694cf977c9fa5d314f1e52822f997b">
                 <source>Some permissions, such as configuration access are not affected by this setting, but must always be explicitly defined</source>
+                <target>Некоторые разрешения, такие как доступ к конфигурации, не затрагиваются этой настройкой, но должны быть всегда заданы явно</target>
             </trans-unit>
             <trans-unit id="a6940478db585351399947ac28c2cb54">
                 <source>User's display name format</source>
@@ -3964,15 +4004,15 @@
             </trans-unit>
             <trans-unit id="5d2d9108cdedf1b20613657ef16f3cb2">
                 <source>New user accounts</source>
-                <target>Новые аккаунты пользователя</target>
+                <target>Новые пользователи</target>
             </trans-unit>
             <trans-unit id="42a87b3af0dd6ff68f22d2e5f3a7e028">
                 <source>Users can register new accounts</source>
-                <target>Пользователи могут регистрировать новые аккаунты</target>
+                <target>Пользователи могут регистрировать новые учетные записи</target>
             </trans-unit>
             <trans-unit id="a8a92afb6eaee244be4523b4be64c2bc">
                 <source>All new user accounts will be created by an admin</source>
-                <target>Все пользовательские аккаунты будут созданы администратором</target>
+                <target>Все учетные записи пользователей будут созданы администратором</target>
             </trans-unit>
             <trans-unit id="7e8b49796b7cfe961e3a0bfb788ce745">
                 <source>Enable Mozilla Persona</source>
@@ -3992,11 +4032,11 @@
             </trans-unit>
             <trans-unit id="ac57438409073b822f6393a3d98285f2">
                 <source>Users can register with OpenID and link OpenID to existing accounts</source>
-                <target>Пользователи могут решистрироваться через OpenID, и связывать свой существующий аккаунт с OpenID</target>
+                <target>Пользователи могут регистрироваться через OpenID, и связывать с OpenID свои существующие учетные записи</target>
             </trans-unit>
             <trans-unit id="7776f4996c1eccc38a428431b2d2e484">
                 <source>Users can only link OpenID logins with existing accounts</source>
-                <target>Пользователи могут привязать свои аккаунты OpenID только к существующим аккаунтам The Bug Genie</target>
+                <target>Пользователи могут связывать свои учетные записи OpenID только с существующими учетными записями</target>
             </trans-unit>
             <trans-unit id="4c6de8121477e87bdd0730e848184713">
                 <source>OpenID authentication is disabled</source>
@@ -4070,7 +4110,7 @@
             </trans-unit>
             <trans-unit id="31bb524b79555882ad5e738a66cbe707">
                 <source>Show workflow details</source>
-                <target>Показать детали workflow</target>
+                <target>Подробнее о рабочем процессе</target>
             </trans-unit>
             <trans-unit id="e5b7363aa4db74ec5ce8511bca050f71">
                 <source>Create a copy of this workflow</source>
@@ -4156,13 +4196,15 @@
             </trans-unit>
             <trans-unit id="b003df4818fe3f17872a9fd6bac9aa9f">
                 <source>Workflow lets you define the lifecycle of an issue. You can define steps, transitions and more, that makes an issue move through its defined lifecycle.</source>
-                <target>Workflow позволяет задавать жизненный цикл проблемы. Вы можете редактировать шаги, переходы и т.д., которые нужны для продвижения проблемы по жизненному циклу.</target>
+                <target>Рабочий процесс позволяет задать жизненный цикл задачи. Вы можете задавать шаги, переходы и другие необходиме параметры, которые нужны для продвижения задачи по жизненному циклу.</target>
             </trans-unit>
             <trans-unit id="4510c7e5d08b199f9560f780392abe0c">
                 <source>You can read more about how the workflow in The Bug Genie works and is set up in %link_to_wiki_workflow.</source>
+                <target>Вы можете узнать больше относительно того, как устроен и как настраивается рабочий процесс в The Bug Genie, прочитав %link_to_wiki_workflow.</target>
             </trans-unit>
             <trans-unit id="2cea75381424ad0167686fa9eb5870b6">
                 <source>This instance is currently using %num of max %max custom workflows</source>
+                <target>Данный экземпляр в настоящее время использует %num из макс. %max настраиваемых рабочих процессов</target>
             </trans-unit>
             <trans-unit id="e6b088db24ebe67ed0e9567d309387ec">
                 <source>Workflows</source>
@@ -4199,6 +4241,7 @@
             </trans-unit>
             <trans-unit id="c416239602865b623849883acd756de5">
                 <source>This workflow scheme can not be deleted as it is being used by %number_of_projects project(s)</source>
+                <target>Эта Схема рабочего процесса не может быть удалена, так как она используется в %number_of_projects проектах</target>
             </trans-unit>
             <trans-unit id="2eea2f7f64257a0126f90957735364c9">
                 <source>Do you really want to delete this workflow scheme?</source>
@@ -4259,6 +4302,7 @@
             </trans-unit>
             <trans-unit id="a5842f36efce723c5fec42fed9f1203a">
                 <source>To delete a step that has incoming transitions, first remove all incoming transitions</source>
+                <target>Для удаления шага, имеющего входящие переходы, сначала удалите все входящие переходы</target>
             </trans-unit>
             <trans-unit id="b8f177006cfda3f25c9bcb1c1f0919ea">
                 <source>Delete step</source>
@@ -4324,7 +4368,7 @@
             </trans-unit>
             <trans-unit id="b1ba476dab6e3a09eda6db7b74c4af91">
                 <source>Set percent completed to %percentcompleted</source>
-                <target>Установить процент выполнение на %percentcompleted</target>
+                <target>Установить процент выполнения на %percentcompleted</target>
             </trans-unit>
             <trans-unit id="c3182617e11f7d814f532014eec67fac">
                 <source>Percentage provided by user</source>
@@ -4352,6 +4396,7 @@
             </trans-unit>
             <trans-unit id="fdb1413622764c19e36ba13f0c3587b7">
                 <source>User or team specified during transition</source>
+                <target>Пользователь или команда, указанные при переходе</target>
             </trans-unit>
             <trans-unit id="07b01457566cf4bd671cb59d0207d7b0">
                 <source>Set issue field %key to %value</source>
@@ -4444,9 +4489,11 @@
             </trans-unit>
             <trans-unit id="06513c40d33281a25a125fdc4684ab13">
                 <source>Issue is in any of these milestones: %milestones</source>
+                <target>Задача относится к следующим этапам: %milestones</target>
             </trans-unit>
             <trans-unit id="447f3e61ba039c59d5f0be4b764b829b">
                 <source>Custom field %customfield is any of these values: %values</source>
+                <target>Настраиваемое поле %customfield может принимать любое из этих значений: %values</target>
             </trans-unit>
             <trans-unit id="e96a05b335e9319c6127ae0ad5ddb44d">
                 <source>Status must be any of these values</source>
@@ -4466,6 +4513,7 @@
             </trans-unit>
             <trans-unit id="2fec3d26d4ec0133404997ac24d99242">
                 <source>Custom field %customfield must be any of these values</source>
+                <target>Настраиваемое поле %customfield должно принимать одной из этих значений</target>
             </trans-unit>
             <trans-unit id="3ac68beafda750d470e9c0791493e517">
                 <source>Assignee must be member of any of these teams</source>
@@ -4473,16 +4521,19 @@
             </trans-unit>
             <trans-unit id="a11f161bd7fe0f96ffb2c59c8b234c69">
                 <source>User must be member of any of these teams</source>
-                <target>Пользователь должен быть участником одной из команд</target>
+                <target>Пользователь должен быть участником одной из этих команд</target>
             </trans-unit>
             <trans-unit id="f912eb8f1ba67d846c6b59560df654fe">
                 <source>Issue must be in any of these milestones</source>
+                <target>Задача должна относиться к одному или нескольким из этих этапов</target>
             </trans-unit>
             <trans-unit id="b676bc2fe3eb3adab63ba9af46e64d5d">
                 <source>Do you really want to delete this transition validation rule?</source>
+                <target>Вы действительно хотите удалить это правило проверки перехода?</target>
             </trans-unit>
             <trans-unit id="313ad4da49c0223dfb2be0c85983a15c">
                 <source>Please confirm that you really want to delete this transition validation rule.</source>
+                <target>Подтвердите, что Вы действительно хотите удалить это правило проверки перехода.</target>
             </trans-unit>
         </body>
     </file>
@@ -4495,6 +4546,7 @@
             </trans-unit>
             <trans-unit id="24accbc08b476837759defff5dac7cb7">
                 <source>Please remember to install and configure your chosen authentication backend before setting it here. Changing settings on this page will result in you being logged out.</source>
+                <target>Обязательно установите и настройте выбранный способ аутентификации прежде, чем переключиться на него здесь. Изменение настроек на этой странице приведет к тому, что Вы автоматически выйдете из системы.</target>
             </trans-unit>
             <trans-unit id="bc1f2941bd954e9cd3e499005504d389">
                 <source>Authentication backend</source>
@@ -4514,6 +4566,7 @@
             </trans-unit>
             <trans-unit id="3387a3301042efa578345438257b815b">
                 <source>The Bug Genie's registration page is unavailable when using a different backend. Write a message here to be shown to users instead. WikiFormatting can be used in this box and similar ones on this page.</source>
+                <target>Страница регистрации The Bug Genie недоступна при использовании иного бэкенда. Напишите здесь сообщение, которое будет показано пользователям вместо страницы регистрации. В этом поле и других аналогичных полях можно использовать Вики-форматирование.</target>
             </trans-unit>
             <trans-unit id="d5d4e54f58033fafc2b5a665e5103c72">
                 <source>Forgot password message</source>
@@ -4525,7 +4578,7 @@
             </trans-unit>
             <trans-unit id="2340a23b688e8ca63b991358d4cadd6d">
                 <source>Change account details message</source>
-                <target>Изменить сообщение деталей аккаунта</target>
+                <target>Изменить сообщение о деталях учетной записи</target>
             </trans-unit>
             <trans-unit id="97deee2521d0ffcc116df145e3edfeb8">
                 <source>Click &quot;%save&quot; to save your changes in all categories</source>
@@ -4546,6 +4599,7 @@
             </trans-unit>
             <trans-unit id="9ac28f5ce4d2c6cfb6fb1c1de2038b62">
                 <source>Edit built-in and custom issue fields and values here. Remember that the issue fields visibility (in the issue view or during reporting) is decided by the %issuetype_scheme in use by the project.</source>
+                <target>Здесь можно редактировать встроенные и настраиваемые поля задачи и значения. Не забудьте, что видимость полей задачи (при просмотре задачи или ее создании) определяется %issuetype_scheme, используемой проектом.</target>
             </trans-unit>
             <trans-unit id="80651f0ce53b03be7dc0ea613b535fa6">
                 <source>Issuetype scheme</source>
@@ -4578,9 +4632,11 @@
             </trans-unit>
             <trans-unit id="6a6a527263c6013760240091dcf9d221">
                 <source>All issue types have their own settings for which fields are available / required on both the reporting page and on the issue overview page.</source>
+                <target>Все типы задач имеют свои собственные настройки того, какие поля доступны / требуются на страницах создания и просмотра задачи.</target>
             </trans-unit>
             <trans-unit id="ea80b45f96b1955249ebb08553496fa7">
                 <source>You can read more about how issue types and schemes in The Bug Genie works and is set up in the %online_documentation</source>
+                <target>Вы можете узнать больше о том, как работают и настраиваются типы задач и схемы в The Bug Genie в %online_documentation </target>
             </trans-unit>
             <trans-unit id="bbe8701553ec350cc8626781c50a4d3a">
                 <source>online documentation</source>
@@ -4596,6 +4652,7 @@
             </trans-unit>
             <trans-unit id="71db1fdac23ea6720ae6fad6f271ad86">
                 <source>In this tab you can add/remove/edit what issue types are available to issue type schemes. If you add a new issue type on this page, remember to associate it to an issue type scheme on the %issue_type_schemes tab to get it to show up for users.</source>
+                <target>На этой вкладке Вы можете добавить/удалить/отредактировать то, какие типы задач доступны в схемах типов задач. Если Вы добавляете новый тип задачи на этой странице, не забудьте связать его со схемой типов задач на вкладке %issue_type_schemes для того, чтобы сделать новый тип задачи доступным для пользователей.</target>
             </trans-unit>
             <trans-unit id="67c914d2a32a76b22c48eaed7afd8223">
                 <source>Add new issue type</source>
@@ -4603,12 +4660,15 @@
             </trans-unit>
             <trans-unit id="39ad653b054ab3cfa6f7e4d99d7ad9f7">
                 <source>In this tab you can add/remove/edit issue type schemes. If you add a new issue type on the previous tab, you must associate it with an issue type scheme in this tab to get it to show up for users.</source>
+                <target>На этой вкладке Вы можете добавить/удалить/отредактировать схемы типов задач. Если Вы добавили новый тип задачи на предыдущей вкладке, Вы должны связать его со схемой типов задач на этой вкладке для того, чтобы сделать новый тип задачи доступным для пользователей.</target>
             </trans-unit>
             <trans-unit id="0518af3a5ccac6e515fa87c7afe0358e">
                 <source>Keep in mind that the original issue type scheme is uneditable, so to make any changes, make a copy of the first issue type scheme, or edit one that is not the one shipped with The Bug Genie</source>
+                <target>Помните, что исходую схему типов задач нельзя изменить, поэтому, чтобы внести изменения, сделайте копию исходной схемы типов задач, или отредактируйте одну из ранее созданных схем - не из тех, что поставляются вместе с The Bug Genie</target>
             </trans-unit>
             <trans-unit id="4ceb506b474e38979caa967ab251c64d">
                 <source>In this tab you can edit issue type associations for this issue type scheme. Enable/disable available issue types, and set options such as reportable issue types and reportable/visible/required issue details.</source>
+                <target>На этой вкладке Вы можете отредактировать связи типов задач с этой схемой типов задач. Вы можете включить/выключить доступные типы задач, а также задать настройки, такие как возможность создания задач определенных типов и видимость, видимость при создании, необходимость указания деталей задач.</target>
             </trans-unit>
         </body>
     </file>
@@ -4630,15 +4690,19 @@
         <body>
             <trans-unit id="07e46b4a0c21a0ce103a755647cb3e05">
                 <source>Manage existing or download and install new modules for The Bug Genie here.</source>
+                <target>Здесь можно управлять существующими или загрузить и установить новые модули для The Bug Genie.</target>
             </trans-unit>
             <trans-unit id="3603ead1df78cae75074bfe15f42416a">
                 <source>The modules folder (%modules_path) seems to not be writable. You may not be able to install new modules.</source>
+                <target>Похоже, что папка модулей (%modules_path) не доступна для записи. Возможно, Вы не сможете установить новые модули.</target>
             </trans-unit>
             <trans-unit id="84595812555ba88e8ae33e592df220b0">
                 <source>You have %count outdated modules. They have been disabled until you upgrade them, you can upgrade them on this page.</source>
+                <target>У Вас %count просроченных модулей. Они будут отключены до тех пор, пока Вы не обновите их - Вы можете обновить их на этой странице.</target>
             </trans-unit>
             <trans-unit id="a1e4a433356f57591153711641827184">
                 <source>You have %count outdated modules. They have been disabled until they are updated by an administrator.</source>
+                <target>У Вас %count просроченных модулей. Они будут отключены до тех пор, пока не будут обновлены администратором.</target>
             </trans-unit>
             <trans-unit id="4a180fc54abe95371a0ef38d6231a8cf">
                 <source>Installed modules (%count)</source>
@@ -4658,6 +4722,7 @@
             </trans-unit>
             <trans-unit id="2736456ed9e6534c868b5535ca024615">
                 <source>This is a list of modules that are available in the modules folder, but not currently installed on this system.</source>
+                <target>Это список доступных, но все еще не установленных  в системе модулей.</target>
             </trans-unit>
         </body>
     </file>
@@ -4718,6 +4783,7 @@
             </trans-unit>
             <trans-unit id="158ae277e73b98e1e6fb4b77e290a96f">
                 <source>The Bug Genie permissions are thoroughly explained in [[ConfigurePermissions]] in the wiki - look it up if you're ever stuck.</source>
+                <target>Разрешения The Bug Genie подробно разъясняются в [[ConfigurePermissions]] в Вики - обращайтесь к этой статье в случае затруднений.</target>
             </trans-unit>
         </body>
     </file>
@@ -4791,6 +4857,7 @@
             </trans-unit>
             <trans-unit id="700115debb912416d435f84468e35240">
                 <source>Roles are applied when assigning users or teams to a project, granting them access to specific parts of the project or giving users access to update and edit information. Updating permissions in this list will add or remove permissions for all users and / or team members with that role, on all assigned projects. Removing a role removes all permissions granted by that role for all users and teams. Read more about roles and permissions in the %online_documentation</source>
+                <target>Роли используются при назначении пользователей или групп проекту, предоставляя им доступ к определенным частям проекта или давая пользователям доступ на редактирование информации. Изменение разрешений в этом списке добавит или удалит разрешения для всех пользователей и  / или членов команды с данной ролью, для всех назначенных объектов. Удаление роли удаляет все разрешения, предоставленные данной ролью всем пользователям и командам. Более подробная информация о ролях и разрешениях доступна в %online_documentation</target>
             </trans-unit>
             <trans-unit id="e4c29551cc148d92d776fe4bddef6e8d">
                 <source>Add new role</source>
@@ -4823,9 +4890,11 @@
             </trans-unit>
             <trans-unit id="000cc2e5add1873c85a370fe25fbfdcd">
                 <source>The themes folder (%themes_path) seems to not be writable. You may not be able to install new themes.</source>
+                <target>Похоже, что папка тем (%themes_path) не доступна для записи. Возможно, Вы не сможете установить новые темы.</target>
             </trans-unit>
             <trans-unit id="b8c7529bb53d8c91c46613e5631d460d">
                 <source>The themes public folder (%themes_public_path) seems to not be writable. You may not be able to install new themes.</source>
+                <target>Похоже, что общедоступная папка тем (%themes_public_path) не доступна для записи. Возможно, Вы не сможете установить новые темы.</target>
             </trans-unit>
             <trans-unit id="e4fea21412fbe9d296292b47b0767677">
                 <source>Installed themes (%count)</source>
@@ -4850,6 +4919,7 @@
             </trans-unit>
             <trans-unit id="f5b3fc35c8151a9388f3e91587c048d6">
                 <source>The file upload functionality can be enhanced with file type detection. To enable this, please install and enable the fileinfo extension.</source>
+                <target>Функциональность подгрузки может быть расширена с использованием определения типов файлов. Для включения определения типов файлов, установите и включите расширение fileinfo.</target>
             </trans-unit>
             <trans-unit id="f97f768d717ea53758c124799c5163be">
                 <source>Enable uploads</source>
@@ -4857,6 +4927,7 @@
             </trans-unit>
             <trans-unit id="ccaf05a8eb5320dceb976dc17ab9282e">
                 <source>When uploads are disabled, users will not be able to attach files to issues or upload documents, images or PDFs in project planning. More fine-grained permissions are available from the permissions configuration.</source>
+                <target>Если подгрузка отключена, пользователи не смогут прикрепить файлы к задачам или подгрузить документы, изображения или PDF на странице планирования проекта. Более тонкие разрешения доступны в настройках разрешений.</target>
             </trans-unit>
             <trans-unit id="ba88aed4e8058948cc0a8058061c90e0">
                 <source>Max upload file size</source>
@@ -4920,6 +4991,7 @@
             </trans-unit>
             <trans-unit id="e9b9c768bb3b3f95b507748a62ca8285">
                 <source>Specify whether you want to use the filesystem or database to store uploaded files. Using the database will make it easier to move your installation to another server.</source>
+                <target>Укажите, хотите ли Вы использовать для хранения файлов базу данных или файловую систему. Хранение файлов в базе данных упрощает перемещение установки на другой сервер.</target>
             </trans-unit>
             <trans-unit id="8bf93164da9c0dfb017c81bfc458b7b5">
                 <source>Storage usage</source>
@@ -4935,6 +5007,7 @@
             </trans-unit>
             <trans-unit id="cdbc2878409b60021d407398a8ada332">
                 <source>If you're storing files on the filesystem, specify where you want to save the files, here. Default location is the %files folder in the main folder (not the public folder)</source>
+                <target>Если Вы храните файлы в файловой системе, укажите здесь место для сохранения файлов. Местоположение по умолчанию - это папка %files в главной папке (не папка public).</target>
             </trans-unit>
             <trans-unit id="1fca3b6c6777b3e77694d43d93bc1ff6">
                 <source>Use X-Sendfile for delivering files</source>
@@ -4942,6 +5015,7 @@
             </trans-unit>
             <trans-unit id="306361a9a000edd7e9f745f158d10841">
                 <source>Choose whether files shall be delivered through PHP or the X-Sendfile server extension. X-Sendfile allows delivering big files without impacting PHP's memory limit.</source>
+                <target>Выберите, будут ли файлы доставляться с использованием PHP или расширения сервера X-Sendfile. Расширение X-Sendfile позволяет доставлять большие файлы, не влияя при этом на лимит памяти PHP.</target>
             </trans-unit>
             <trans-unit id="3f3e336e2f1fa10375efd923fca18b55">
                 <source>Warning:</source>
@@ -4949,6 +5023,7 @@
             </trans-unit>
             <trans-unit id="a972c45fdd86ca97d4bcb675d1090500">
                 <source>When enabling this option, make sure the X-Sendfile extension is installed on your server and configured properly to serve files from the above upload location, or file delivery will be severely broken.</source>
+                <target>При включении этой опции, убедитесь, что расширение X-Sendfile установлено на сервере и сконфиругировано для доставки файлов из указанного выше местоположения подгрузки, иначе доставка файлов не будет работать.</target>
             </trans-unit>
             <trans-unit id="6ce341df35e280b4e6d81566f6c29b30">
                 <source>Enable browser caching for images</source>
@@ -4956,6 +5031,7 @@
             </trans-unit>
             <trans-unit id="5af56f5362e0aae62445e210b70641a2">
                 <source>By default, browser caching is disabled for uploads and attachments. When enabling this option, image files will be delivered to the browser with a valid caching header.</source>
+                <target>По умолчанию, кеширование в браузере отключено для подгрузок и вложений. При включении этой настройки, файлы изображений будут отправляться браузеру со специальным заголовоком кеширования.</target>
             </trans-unit>
             <trans-unit id="052458cce07522567d40e22489a93dc3">
                 <source>File uploads are not available in this instance of The Bug Genie.</source>
@@ -5036,6 +5112,7 @@
             </trans-unit>
             <trans-unit id="c8e4b2e087f6d8c95faccabe332b76ac">
                 <source>The username you tried to create already exists. You can give this user access to the current scope by pressing &quot;%yes&quot; below. If you want to create a different user, press &quot;%no&quot; and enter a different username.</source>
+                <target>Имя пользователя, которое вы указали, уже существует. Вы можете дать этому пользователю доступ к текущей области, нажав &quot;%yes&quot; ниже. Если вы хотите создать нового пользователя, нажмите &quot;%no&quot; и введите другое имя пользователя.</target>
             </trans-unit>
             <trans-unit id="a6105c0a611b41b08f1209506350279e">
                 <source>yes</source>
@@ -5153,6 +5230,7 @@
             </trans-unit>
             <trans-unit id="01d5666acc87f34a39e22152138d2a17">
                 <source>This page shows all the issuetype / workflow associations for the selected workflow scheme. Select the appropriate workflow schemes for each issue type in the list below, and press the &quot;%save_workflow_associations&quot; button when done.</source>
+                <target>На этой странице показаны связи данной схемы рабочего процесса с рабочими процессами и типами задач.  Задайте подходящие схемы рабочего процесса для каждого типа задач в расположенном ниже списке. Когда закончите, нажмите кнопку &quot;%save_workflow_associations&quot;.</target>
             </trans-unit>
             <trans-unit id="65ebcad874274c39869fdafbf16b2fd3">
                 <source>Save workflow assocations</source>
@@ -5193,9 +5271,11 @@
             </trans-unit>
             <trans-unit id="b9508ed79c40d38e02eb0939358c88f2">
                 <source>This page shows all the available details for this step for the selected workflow, as well as transitions to and from this step.</source>
+                <target>На этой странице показана подробная информация об этом шаге выбранного рабочего процесса, а также все переходы в/из этого шага.</target>
             </trans-unit>
             <trans-unit id="fe6ed7463cd9a145a156799784365bcb">
                 <source>You can add and remove transitions from this page, as well as manage properties for this step.</source>
+                <target>На этой странице вы можете добавлять и удалять переходы, а также управлять свойствами этого шага.</target>
             </trans-unit>
             <trans-unit id="929e73682d0c93d881f2192238221aea">
                 <source>Edit this step</source>
@@ -5288,12 +5368,15 @@
             </trans-unit>
             <trans-unit id="fbd6860044a75f06bb7d1755dbb2e170">
                 <source>This page shows all the available steps for the selected workflow, as well as transitions between these steps.</source>
+                <target>На этой странице показаны все доступные шаги выбранного рабочего процесса, а также переходы между этими шагами.</target>
             </trans-unit>
             <trans-unit id="ee6ae91447f1f0ba546d3f434c3c682e">
                 <source>You can add and remove steps from this page, as well as manage the transitions between them.</source>
+                <target>На этой странице вы можете добавлять и удалять шаги, а также управлять переходами между ними.</target>
             </trans-unit>
             <trans-unit id="38675ded2be10b4ec0ba8a8b5b4792a6">
                 <source>Steps without any incoming transitions are shown as faded out.</source>
+                <target>Шаги без входящих переходов показаны серым цветом.</target>
             </trans-unit>
             <trans-unit id="3c82f686247f1ec6298a2aebd2e04225">
                 <source>Add a step</source>
@@ -5326,9 +5409,11 @@
             </trans-unit>
             <trans-unit id="2eda93345cc99578e3a0dcfaf9e75317">
                 <source>This page shows all the available details for this transition for the selected workflow, as well as incoming and outgoing steps from this transition.</source>
+                <target>На этой странице показана вся доступная информация об этом переходе выбранного рабочего процесса, а также начальные и конечные шаги этого перехода.</target>
             </trans-unit>
             <trans-unit id="a493392aa20c9733e14448bd43adee49">
                 <source>You can edit all details about the selected transitions from this page.</source>
+                <target>На этой странице вы можете изменить все параметры выбранных переходов.</target>
             </trans-unit>
             <trans-unit id="54282da2ff33825de04885bc4f28f1fe">
                 <source>Transition path</source>
@@ -5336,6 +5421,7 @@
             </trans-unit>
             <trans-unit id="be80ed668a31c2e66815f90c10aa2f52">
                 <source>This transaction doesn't have any originating step</source>
+                <target>Этот переход не имеет ни одного начального шага</target>
             </trans-unit>
             <trans-unit id="260a7b984c3d52076e5b8e882ddec0f3">
                 <source>Issue is created</source>
@@ -5347,10 +5433,11 @@
             </trans-unit>
             <trans-unit id="105fd5db3eb1e18a87390f293f576eaa">
                 <source>No template used - transition happens instantly</source>
-                <target>Не используеться шаблон - переходы происходят немедлено</target>
+                <target>Шаблон не задан - переходы происходят немедлено</target>
             </trans-unit>
             <trans-unit id="e705d059bb7a6a4e28153da55313ce5f">
                 <source>This optional description will be presented to the user</source>
+                <target>Необязательное описание, которое будет показано пользователю</target>
             </trans-unit>
             <trans-unit id="b25d88cacdeb93152db977cc783753fe">
                 <source>Update transition details</source>
@@ -5366,12 +5453,15 @@
             </trans-unit>
             <trans-unit id="1ebbea7af7555b146f9befea0bbbc8ca">
                 <source>The following validation rules has to be fullfilled for the transition to be available to the user</source>
+                <target>Следующие правила валидации должны быть выполнены для того, чтобы переход стал доступен для пользователя</target>
             </trans-unit>
             <trans-unit id="f275af9d1372ec28caab427c5376ea9f">
                 <source>This transition has no pre-validation rules</source>
+                <target>Для этого перехода не заданы правила предварительной валидации</target>
             </trans-unit>
             <trans-unit id="3ac87a1b6b6bb3672c618afa318ee88d">
                 <source>This is the initial transition, so no pre-transition validation is performed</source>
+                <target>Это начальный переход, поэтому предварительная валидация не осуществляется</target>
             </trans-unit>
             <trans-unit id="34d768123300720b13045f211dc40d61">
                 <source>Post-transition validation rules</source>
@@ -5379,12 +5469,15 @@
             </trans-unit>
             <trans-unit id="e75ada85cc74ad72bfca2de664245efe">
                 <source>The following validation rules will be applied to the input given by the user in the transition view. If the validation fails, the transition will not take place.</source>
+                <target>Следующие правила валидации будут применены к вводу пользователя в представлении перехода. Если валидация завершится неудачно, переход не произойдет.</target>
             </trans-unit>
             <trans-unit id="26d75c4f37130daeff104395581b8935">
                 <source>This transition has no post validation rules</source>
+                <target>Для этого перехода не заданы правила валидации по завершении</target>
             </trans-unit>
             <trans-unit id="2c51f2edcf3d73a1d656cfd2321db8e1">
                 <source>This transition does not use any template, so user input cannot be validated</source>
+                <target>Этот переход не использует шаблоны, поэтому валидация ввода пользователя не может быть произведена</target>
             </trans-unit>
             <trans-unit id="f1b8f94014d9d0f0f4a0058cf6197e34">
                 <source>Set issue fields</source>
@@ -5400,11 +5493,11 @@
             </trans-unit>
             <trans-unit id="b6c016dbc9d8914308829f93ef5c59d5">
                 <source>Post-transition actions</source>
-                <target>Пост-переходные действия</target>
+                <target>Действия после перехода</target>
             </trans-unit>
             <trans-unit id="b579c11b42cbad3b7168e7057b5b3fce">
                 <source>The following actions will be applied to the issue during this transition.</source>
-                <target>Следующие действия будут применяться к задаче во время этого перехода.</target>
+                <target>Следующие действия будут применены к задаче в процессе перехода.</target>
             </trans-unit>
             <trans-unit id="4b29e908d20b2e71ee4a266770c5311b">
                 <source>Add a comment if one is specified</source>
@@ -5429,6 +5522,7 @@
             </trans-unit>
             <trans-unit id="b718adec73e04ce3ec720dd11a06a308">
                 <source>ID</source>
+                <target>Ид.</target>
             </trans-unit>
             <trans-unit id="2bbb89e31c5ff48758ab9804c85d4f90">
                 <source>Real name (nickname)</source>
@@ -5444,6 +5538,7 @@
             </trans-unit>
             <trans-unit id="2814877f5d3fc33ef402680061b147db">
                 <source>Configure advanced permissions for %username</source>
+                <target>Настройка дополнительных разрешений для %username</target>
             </trans-unit>
         </body>
     </file>
@@ -5460,12 +5555,15 @@
             </trans-unit>
             <trans-unit id="75f7f4e63240fb1f3db13e17acab43fa">
                 <source>You currently have version %thebuggenie_version of The Bug Genie.</source>
+                <target>В настоящее время Вы используете The Bug Genie версии %thebuggenie_version.</target>
             </trans-unit>
             <trans-unit id="04b24c090c3d97212898b0c288214cbc">
                 <source>You have %count outdated modules. They have been disabled until you upgrade them, you can upgrade them from Module settings.</source>
+                <target>У вас %count устаревших модулей. Их можно отключить, пока вы не обновите их - это можно сделать через настройки модулей.</target>
             </trans-unit>
             <trans-unit id="58a0fa1ae964e605580e1b22909fb6dd">
                 <source>You appear to have Magic Quotes enabled. This will cause problems with The Bug Genie, and so it is highly recommended that you disable it in your PHP configuration. Please note that this feature has been deprecated by the PHP developers, and so leaving it enabled is not advised. %furtherdetails</source>
+                <target>Похоже, у вас включены Magic Quotes. Это приведет к проблемам с The Bug Genie, поэтому настоятельно рекомендуем отключить их посредством конфигурации PHP. Обратите внимание, что эта возможность отмечена разработчиками PHP как устаревшая, поэтому оставлять ее включенной не рекомендуется. %furtherdetails</target>
             </trans-unit>
             <trans-unit id="2ee08ac90b0ae8aa545a87ed7e3e582c">
                 <source>Further details</source>
@@ -5486,6 +5584,7 @@
             </trans-unit>
             <trans-unit id="7e8423036a6c8e54eb643c88cddfd16e">
                 <source>To apply changes to the authentication system, you have been automatically logged out. The new authentication system is now in use.</source>
+                <target>Для применения изменений в системе аутентификации, вы автоматически вышли из системы. Новая система аутентификации уже используется.</target>
             </trans-unit>
             <trans-unit id="a0bfb8e59e6c13fc8d990781f77694fe">
                 <source>Continue</source>
@@ -5522,6 +5621,7 @@
             </trans-unit>
             <trans-unit id="10e086baa80b8eaa64f6851014ea5755">
                 <source>This is the list of hostnames for which this scope will be active.</source>
+                <target>Список имен хостов, которые будет обслуживать данная область</target>
             </trans-unit>
             <trans-unit id="d4eb46f77e78c8d215447d1eb9203569">
                 <source>Allow custom workflows</source>
@@ -5553,6 +5653,7 @@
             </trans-unit>
             <trans-unit id="498d0de50e1bc2d24589f1d5bd97667d">
                 <source>Total number of allowed projects. Setting the value to &quot;0&quot; disables limitations on number of projects.</source>
+                <target>Макс. число проектов. Введите &quot;0&quot; для того, чтобы снять ограничение на число проектов.</target>
             </trans-unit>
             <trans-unit id="35627a1ce5134c83d65cf4c93067df18">
                 <source>Max users</source>
@@ -5560,6 +5661,7 @@
             </trans-unit>
             <trans-unit id="9b701c39d9a0d9669cd771fd2984503a">
                 <source>Total number of allowed users. Setting the value to &quot;0&quot; disables limitations on number of users.</source>
+                <target>Макс. число пользователей. Введите &quot;0&quot; для того, чтобы снять ограничение на число пользователей.</target>
             </trans-unit>
             <trans-unit id="a41273e4e8501463ebe3c5ad1661fe1f">
                 <source>Max teams</source>
@@ -5567,6 +5669,7 @@
             </trans-unit>
             <trans-unit id="a58debca7632892e0cac7cbabe4e994e">
                 <source>Total number of allowed teams. Setting the value to &quot;0&quot; disables limitations on number of teams.</source>
+                <target>Макс. число команд. Введите &quot;0&quot; для того, чтобы снять ограничение на число команд.</target>
             </trans-unit>
             <trans-unit id="2b022c619dcfa252493ea689d186f688">
                 <source>Available modules</source>
@@ -5599,9 +5702,11 @@
         <body>
             <trans-unit id="0e0d43f6b4bc0c5740b4111901edb5f1">
                 <source>The Bug Genie scopes are self-contained environments within the same The Bug Genie installation, set up to be initialized when The Bug Genie is accessed via different hostnames.</source>
+                <target>Области The Bug Genie - это автономные окружения внутри одной установки The Bug Genie, настроенные для того, чтобы обслуживать запросы к The Bug Genie, осуществляемые посредством разных имен хостов.</target>
             </trans-unit>
             <trans-unit id="e3afdb01daba455e65b6f50e036dda57">
                 <source>The default scope (which is created during the first installation) is used for all hostnames where there is no other scope defined. Read more about scopes in %ConfigureScopes.</source>
+                <target>Область по-умолчанию (созданная при начальной установке) используется для всех имен хостов, для которых не определены другие области. Подробнее об областях - %ConfigureScopes.</target>
             </trans-unit>
             <trans-unit id="37c045bf6b83f5e758dbf156cf015749">
                 <source>The scope was deleted</source>
@@ -5613,6 +5718,7 @@
             </trans-unit>
             <trans-unit id="c7374d7ba062a55a41a78111945a4fee">
                 <source>The scope name must be unique and cannot be blank</source>
+                <target>Имя области должно быть уникальным и не может быть пустым</target>
             </trans-unit>
             <trans-unit id="364c6992c490b0b0ef211fc85acdd5d5">
                 <source>The settings were saved successfully</source>
@@ -5628,9 +5734,11 @@
             </trans-unit>
             <trans-unit id="8a1b85fdb5184d3b5508b39037c87c7c">
                 <source>The scope name is used in the list below as a short descriptive name for the scope</source>
+                <target>Имя области используется в расположенном ниже списке в качестве краткого описателя области</target>
             </trans-unit>
             <trans-unit id="eb3512256338ed41dc7c468e45e7374e">
                 <source>The hostname should be provided without protocol or the trailing slash (.com, not .com/) and port specified if desired. Valid examples are: %examples</source>
+                <target>Имя хоста должно быть представлено без протокола и завершающей косой черты (.com вместо .com/), с указанием порта, если требуется. Примеры правильных имен: %examples</target>
             </trans-unit>
             <trans-unit id="6baf0390552c274bd0e6064b7be41842">
                 <source>%create_scope or %cancel</source>
@@ -5837,7 +5945,7 @@
             </trans-unit>
             <trans-unit id="3a52084696c148fbe119a49a261b1ea3">
                 <source>Severity values</source>
-                <target>Значения строгости</target>
+                <target>Значения серьезности</target>
             </trans-unit>
             <trans-unit id="5c7dc00daaf7834b12a2844c6ff142c9">
                 <source>Category values</source>
@@ -6020,39 +6128,39 @@
             </trans-unit>
             <trans-unit id="007cc9547ae8884ad597cd92ba505422">
                 <source>Severity</source>
-                <target>Важность</target>
+                <target>Серьезность</target>
             </trans-unit>
             <trans-unit id="01cc5be2d7998dd0e93d08af4ff3bd00">
                 <source>Click to change severity</source>
-                <target>Нажмите, чтобы изменить важность</target>
+                <target>Нажмите, чтобы изменить серьезность</target>
             </trans-unit>
             <trans-unit id="3b476f3128ce4f2506364bf69045d1cb">
                 <source>Change severity</source>
-                <target>Изменить важность</target>
+                <target>Изменить серьезность</target>
             </trans-unit>
             <trans-unit id="16defdbd9e6564fb41c9fdb61853a7cd">
                 <source>Clear the severity</source>
-                <target>Очистить важность</target>
+                <target>Очистить серьезность</target>
             </trans-unit>
             <trans-unit id="5cb585de5d1a5c952322afebc0c0d445">
                 <source>%clear_the_severity or click to select a new severity</source>
-                <target>%clear_the_severity или щелкните для выбора нового типа строгости</target>
+                <target>%clear_the_severity или щелкните для выбора другой серьезности</target>
             </trans-unit>
             <trans-unit id="84790988caf517d391f0af2791ebf8e1">
                 <source>Targetted for</source>
-                <target>Является частью</target>
+                <target>Целевой этап</target>
             </trans-unit>
             <trans-unit id="3e9bd3c63d85383dbab90a0a7d698118">
                 <source>Click to change which milestone this issue is targetted for</source>
-                <target>Щелкните для изменения этапа, к которому принадлежит данная задача</target>
+                <target>Щелкните для изменения целевого  этапа, с которым связана эта задача</target>
             </trans-unit>
             <trans-unit id="db3f90ee99a98ecaca6a6fc0bbbc619b">
                 <source>Set issue target / milestone</source>
-                <target>Установить цель задачи / этапа</target>
+                <target>Установить целевой этап для задачи</target>
             </trans-unit>
             <trans-unit id="c0a1390bd204b01cece5dbde162dbe5f">
                 <source>Set as not targetted</source>
-                <target>Отметить как свободную</target>
+                <target>Нет целевого этапа</target>
             </trans-unit>
             <trans-unit id="15779c60e4c32f1128afa474e0ee6315">
                 <source>%set_as_not_targetted or click to set a new target milestone</source>
@@ -6165,7 +6273,7 @@
             </trans-unit>
             <trans-unit id="5a0519d6df080f8f350f1b9f78dab178">
                 <source>The account has now been registered - check your email inbox for the activation email. Please be patient - this email can take up to two hours to arrive.</source>
-                <target>Аккаунт зарегестрирован - проверьте свою почту для активации. Пожалуйста, будьте терпеливы - это письмо может придти через несколько часов.</target>
+                <target>Учетная запись зарегестрирована - проверьте свою эл. почту для активации. Пожалуйста, будьте терпеливы - это письмо может придти через несколько часов.</target>
             </trans-unit>
             <trans-unit id="7517ab8171d89066aaf931403c7894f6">
                 <source>You need to fill out all fields correctly.</source>
@@ -6177,7 +6285,7 @@
             </trans-unit>
             <trans-unit id="0c716457b01af1336b28ef554b55948d">
                 <source>Your account has been activated! You can now log in with the username %user and the password in your activation email.</source>
-                <target>Ваш аккаунт зарегистрирован! Теперь Вы можете войти в систему под именем %user и паролем, высланным Вам в письме.</target>
+                <target>Ваша учетная запись зарегистрирована! Теперь Вы можете войти в систему под именем %user и паролем, высланными вам в по эл. почте.</target>
             </trans-unit>
             <trans-unit id="09b95de733d322e9aa3f22d42b503a61">
                 <source>Please fill out all the required fields</source>
@@ -6549,7 +6657,7 @@
             </trans-unit>
             <trans-unit id="0d35925895ad54e3c5e005c342fb1ff1">
                 <source>Could not remove this OpenID account</source>
-                <target>Не удалось удалить этот OpenID аккаунт</target>
+                <target>Не удалось удалить эту учетную запись OpenID</target>
             </trans-unit>
             <trans-unit id="d6f5bffb207272b9ba407562b1c2e56b">
                 <source>Could not show permissions list</source>
@@ -6594,7 +6702,7 @@
             </trans-unit>
             <trans-unit id="f92965e2c8a7afb3c1b9a5c09a263636">
                 <source>Done</source>
-                <target>Выполнено</target>
+                <target>Готово</target>
             </trans-unit>
         </body>
     </file>
@@ -6612,7 +6720,7 @@
         <body>
             <trans-unit id="951f0210dfa940bf2392e6b196d1b223">
                 <source>Remove %itemname?</source>
-                <target>Убрать %itemname?</target>
+                <target>Удалить %itemname?</target>
             </trans-unit>
             <trans-unit id="b2a4b078bab908e4e7bf59b2de9aa4a3">
                 <source>Please confirm that you want to remove this item from the list of items affected by this issue</source>
@@ -6857,7 +6965,7 @@
             </trans-unit>
             <trans-unit id="9aa7c8cfdd38e7bc576f56e65687ea42">
                 <source>Create comment</source>
-                <target>Написать комментарий</target>
+                <target>Добавить комментарий</target>
             </trans-unit>
             <trans-unit id="3a396ee87e9089565a70f5ae6f937b5b">
                 <source>There are no comments</source>
@@ -6956,6 +7064,7 @@
         <body>
             <trans-unit id="59de75f7963cbdd244863be16b748d3a">
                 <source>There are no upcoming milestones for any of your associated projects</source>
+                <target>Нет предстоящих этапов ни в одном из связанных с вами проектов</target>
             </trans-unit>
             <trans-unit id="2a3ace97239afd5ced28ac531e177108">
                 <source>You are not associated with any projects</source>
@@ -6972,6 +7081,7 @@
             </trans-unit>
             <trans-unit id="3e4d332f5024f2e01afceff07afbaa75">
                 <source>Please confirm that you want to remove this item from the list of duplicate issues of this issue</source>
+                <target>Подтвердите, пожалуйста, что вы действительно хотите удалить этот элемент из списка дублирующих задач этой задачи</target>
             </trans-unit>
             <trans-unit id="e53a5d2673a56eb1b89e43d5c080b196">
                 <source>Status not determined</source>
@@ -6979,6 +7089,7 @@
             </trans-unit>
             <trans-unit id="bffc5b5add307fc0a66d0de6cf37eb0b">
                 <source>%issuetype %issue_no</source>
+                <target>%issuetype %issue_no</target>
             </trans-unit>
             <trans-unit id="8e979cbc77b4b79f8232fdf7e7cd3ba6">
                 <source>Assigned to %assignee</source>
@@ -7066,6 +7177,7 @@
             </trans-unit>
             <trans-unit id="0e9b32e904f3e48c4d8ed926c0a10803">
                 <source>Set selected issue as parent</source>
+                <target>Установить выбранную задачу как родительскую</target>
             </trans-unit>
         </body>
     </file>
@@ -7173,9 +7285,11 @@
         <body>
             <trans-unit id="5f066a3dd753584c37de87153bf7d93a">
                 <source>Welcome to The Bug Genie. This seems like the first time you're using this instance, and it doesn't look like you have had the chance to add any projects yet.</source>
+                <target>Добро пожаловать в The Bug Genie. Похоже, вы впервые используете этот экземпляр приложения, и у вас еще не было возможности добавить какие-либо проекты.</target>
             </trans-unit>
             <trans-unit id="36e5864347eedd76d0e8b42b2e077776">
                 <source>If you want to play around a bit with The Bug Genie before you start using it for your own projects, you can generate sample data before adding your own projects. To get started, create a project.</source>
+                <target>Если вы хотите исследовать возможности The Bug Genie прежде, чем использовать его в своих проектах, вы можете сгенерировать пример данных прежде, чем добавлять свои проекты. Чтобы начать, создайте проект.</target>
             </trans-unit>
             <trans-unit id="14674f63ba569d58ee70337f92bbd34a">
                 <source>Generate sample data</source>
@@ -7183,6 +7297,7 @@
             </trans-unit>
             <trans-unit id="30e501db64283703d7570640def47830">
                 <source>%generate_sample_data% or %create_a_project%</source>
+                <target>%generate_sample_data% или %create_a_project%</target>
             </trans-unit>
             <trans-unit id="be86ca474df5e14056bc0f20d2cdb767">
                 <source>Create a project</source>
@@ -7195,15 +7310,19 @@
         <body>
             <trans-unit id="60d8de9a6426a8d0daac246483e67786">
                 <source>It looks likes you're only using The Bug Genie to track issues for one project.</source>
+                <target>Похоже, что вы используете The Bug Genie для отслеживания задач единственного проекта.</target>
             </trans-unit>
             <trans-unit id="800581a1133a5c2333ccc8947e5c5f9d">
                 <source>If you don't want to use this homepage, you can set The Bug Genie to %single_project_tracker_mode, which will automatically forward the frontpage to the project overview page.</source>
+                <target>Если вы не хотите использовать эту страницу в качестве главной, можно включить для The Bug Genie %single_project_tracker_mode - при этом главной страницей проекта станет страница обзора проекта.</target>
             </trans-unit>
             <trans-unit id="c94becf64c766ba6edadc40ada52f205">
                 <source>%single_project_tracker_mode can be enabled from %configure_settings.</source>
+                <target>%single_project_tracker_mode может быть включен в %configure_settings.</target>
             </trans-unit>
             <trans-unit id="cf2bf097cfc105e531b13ed2facd245f">
                 <source>Configure &amp;rarr; Settings</source>
+                <target>Конфигурация &amp;rarr; Настройки</target>
             </trans-unit>
         </body>
     </file>
@@ -7212,6 +7331,7 @@
         <body>
             <trans-unit id="777ce80f6b4cd8bc7b7179a7f2d4cab8">
                 <source>The following actions could not be performed because of missing or invalid values: %list</source>
+                <target>Следующие действия не могут быть выполнены в результате отсутствия или некорректности значений: %list</target>
             </trans-unit>
             <trans-unit id="f0f6bc632b9c09a12ee695db9264c876">
                 <source>Could not assign issue to the selected user because this users assigned issues limit is reached</source>
@@ -7219,9 +7339,11 @@
             </trans-unit>
             <trans-unit id="1ba6d3b26a084c9f91aa99d67bce0304">
                 <source>Could not process issue transition since assigned user is not member of any of allowed teams</source>
+                <target>Невозможно осуществить переход, так как назначенный пользователь не является членом ни одной из имеющих соответствующий доступ команд</target>
             </trans-unit>
             <trans-unit id="4b5dd356e9dc44f7ce56c718933747bd">
                 <source>Could not process issue transition since issue is not in of any of allowed milestones</source>
+                <target>Невозможно осуществить переход, так как задача не связана ни с одним из допустмых этапов</target>
             </trans-unit>
             <trans-unit id="5fe178b8a04ca1a5fba2896664d7cfed">
                 <source>Could not set priority</source>
@@ -7233,7 +7355,7 @@
             </trans-unit>
             <trans-unit id="3c91175c402ec4867d6d359246f3050b">
                 <source>Could not set resolution</source>
-                <target>Не удалось установить решение</target>
+                <target>Не удалось задать решение</target>
             </trans-unit>
             <trans-unit id="7da2857c2f0660e4731982b27ea67b6b">
                 <source>Could not set status</source>
@@ -7257,10 +7379,11 @@
             </trans-unit>
             <trans-unit id="b0e8250f8ac18a93bd1aae0e98c600de">
                 <source>Could not set issue resolution because none was provided</source>
-                <target>Невозможно установить разрешение задачи, потому что ничего не объявлено</target>
+                <target>Невозможно задать разрешение задачи, потому что оно не указано</target>
             </trans-unit>
             <trans-unit id="f5c0e164e2327d92fac1871e944ce879">
                 <source>Could not set issue status because none was provided or you do not have permission</source>
+                <target>Невозможно задать состояние задачи, так как состояние не указано или у вас нет доступа</target>
             </trans-unit>
         </body>
     </file>
@@ -7269,11 +7392,11 @@
         <body>
             <trans-unit id="6aa34cfea8930a33bd36e393127e53cb">
                 <source>Remove access for this user</source>
-                <target>Убрать доступ для этого пользователя</target>
+                <target>Отменить доступ для этого пользователя</target>
             </trans-unit>
             <trans-unit id="06782f41ab7357b8388a8987d184cb55">
                 <source>Remove access for this team</source>
-                <target>Убрать доступ для этой команды</target>
+                <target>Отменить доступ для этой команды</target>
             </trans-unit>
         </body>
     </file>
@@ -7363,7 +7486,7 @@
             </trans-unit>
             <trans-unit id="0449706a08bb644e555a60c2c3588a4f">
                 <source>Click to set percent completed</source>
-                <target>Установить процент выполнения</target>
+                <target>Нажмите, чтобы установить процент выполнения</target>
             </trans-unit>
             <trans-unit id="811520ff2edec32b131f76acd448cbf8">
                 <source>Set percent completed</source>
@@ -7383,6 +7506,7 @@
             </trans-unit>
             <trans-unit id="3e8840a4c791dbdd8cf9ca20ca4b4d78">
                 <source>%percentage % completed</source>
+                <target>завершено на %percentage %</target>
             </trans-unit>
             <trans-unit id="28f6a4c8454cbf25e5fb8b7cdc4b31ce">
                 <source>User pain</source>
@@ -7442,11 +7566,11 @@
             </trans-unit>
             <trans-unit id="c755d289cc2f9a8c77e5954f73bb0d97">
                 <source>Affected by this issue (%count)</source>
-                <target>Затронуты этой задачей (%count)</target>
+                <target>Затронутые элементы (%count)</target>
             </trans-unit>
             <trans-unit id="fdbeffda228173d996b23cd1c97c7860">
                 <source>People involved</source>
-                <target>Участвуют люди</target>
+                <target>Участники</target>
             </trans-unit>
             <trans-unit id="24ad95557100e42e28ea73335e4e8ad1">
                 <source>Posted by</source>
@@ -7486,7 +7610,7 @@
             </trans-unit>
             <trans-unit id="e87393cc9538034bd705f848f07dce46">
                 <source>Clear current assignee</source>
-                <target>Убрать ответственного</target>
+                <target>Снять ответственного</target>
             </trans-unit>
             <trans-unit id="819e297a8822381367dddedf7a9d9054">
                 <source>Not assigned to anyone</source>
@@ -7510,7 +7634,7 @@
             </trans-unit>
             <trans-unit id="4ea582efb684283c974166a8c4f8c496">
                 <source>Posted at</source>
-                <target>Отправлено в</target>
+                <target>Добавлена</target>
             </trans-unit>
             <trans-unit id="ffbb3331182cbfda3ccea5bb0c3eea46">
                 <source>Last updated</source>
@@ -7530,6 +7654,7 @@
             </trans-unit>
             <trans-unit id="76a8163b99ee6947ac7ea18db5a8a11a">
                 <source>Click here to see time logged against this issue</source>
+                <target>Нажмите здесь чтобы увидеть журнал учета времени задачи</target>
             </trans-unit>
             <trans-unit id="bc7df0c37635f826482911223ca4c363">
                 <source>Issue details</source>
@@ -7541,10 +7666,11 @@
             </trans-unit>
             <trans-unit id="b003e4a65ff9b882f867e8c536405a3d">
                 <source>There is nothing attached to this issue</source>
+                <target>У этой задачи нет вложений</target>
             </trans-unit>
             <trans-unit id="043bbc066cbfca3e86c4cb516125f8df">
                 <source>Child issues (%count)</source>
-                <target>Дочерние задачи (%count)</target>
+                <target>Подчиненные задачи (%count)</target>
             </trans-unit>
             <trans-unit id="971c84f617da87821443448a7de0ae77">
                 <source>Duplicate issues (%count)</source>
@@ -7570,6 +7696,7 @@
             </trans-unit>
             <trans-unit id="bdb3b6ab58ee50786bd5de4187d1934b">
                 <source>Log time spent on this issue</source>
+                <target>Добавить затраченное время</target>
             </trans-unit>
             <trans-unit id="1fde465bf11b0d9785e75909579cabe2">
                 <source>Clear current estimate</source>
@@ -7585,6 +7712,7 @@
             </trans-unit>
             <trans-unit id="c04b45aef5853bd804124aeac18c6ebc">
                 <source>Type a value for the time spent %or_specify_below</source>
+                <target>Введите значение для затраченного времени %or_specify_below</target>
             </trans-unit>
             <trans-unit id="5c34344340c36908d48d1f64f528de00">
                 <source>Enter your estimate here</source>
@@ -7596,15 +7724,19 @@
             </trans-unit>
             <trans-unit id="f46a86f9c916d434b6239cb47152d576">
                 <source>Enter a value in plain text, like &quot;1 hour&quot;, &quot;7 hours&quot;, or similar. Time units not supported by project will not be parsed.</source>
+                <target>Введите значение в виде строки текста, например &quot;1 hour&quot;, &quot;7 hours&quot; и т.п. Единицы времени, не поддерживаемые в проекте, не будут разобраны.</target>
             </trans-unit>
             <trans-unit id="d0893adf229bc318ba66f2e8a99c8427">
                 <source>Enter a value in plain text, like &quot;1 point&quot;, &quot;11 points&quot;, or similar. Time units not supported by project will not be parsed.</source>
+                <target>Введите значение в виде строки текста, например &quot;1 point&quot;, &quot;11 points&quot; и т.п. Единицы времени, не поддерживаемые в проекте, не будут разобраны.</target>
             </trans-unit>
             <trans-unit id="556fd8f5118d1a08cb225c9e14bdc74c">
                 <source>Enter a value in plain text, like &quot;1 week, 2 hours&quot;, &quot;1 day&quot;, or similar. Time units not supported by project will not be parsed.</source>
+                <target>Введите значение в виде строки текста, например &quot;1 week, 2 hours&quot;, &quot;1 day&quot; и т.п. Единицы времени, не поддерживаемые в проекте, не будут разобраны.</target>
             </trans-unit>
             <trans-unit id="33626362008b77af7436bd4f2cdc8caf">
                 <source>Enter a value in plain text, like &quot;1 week, 2 hours&quot;, &quot;3 months and 1 day&quot;, or similar. Time units not supported by project will not be parsed.</source>
+                <target>Введите значение в виде строки текста, например &quot;1 week, 2 hours&quot;, &quot;3 months and 1 day&quot; и т.п. Единицы времени, не поддерживаемые в проекте, не будут разобраны.</target>
             </trans-unit>
             <trans-unit id="30819b3c27601576df59819b3b7a5015">
                 <source>%enter_a_value_in_plain_text or specify below</source>
@@ -7612,6 +7744,7 @@
             </trans-unit>
             <trans-unit id="b9259747a7d0884e9e80322de5bbd64b">
                 <source>%number_of</source>
+                <target>%number_of</target>
             </trans-unit>
             <trans-unit id="0a5af37eb11e7dbe24e620c762d281b5">
                 <source>Add %number_of minutes</source>
@@ -7619,6 +7752,7 @@
             </trans-unit>
             <trans-unit id="7954572c9b6201358c85445319c2b24c">
                 <source>Note that the total estimated effort of parent issues is the sum of its child issues. This estimate will be replaced if any child issues are updated.</source>
+                <target>Обратите внимание, что общие расчетные затраты родительских задач являются суммой расчетных затрат подчиненных задач. Это значение будет изменяться при каждом изменении в подчиненных задачах.</target>
             </trans-unit>
             <trans-unit id="b2052c896c55679ab84057733227d332">
                 <source>Add time spent</source>
@@ -7671,7 +7805,7 @@
             </trans-unit>
             <trans-unit id="831116c904db28f1236514cd81abcf96">
                 <source>Severity changed: %previous_value =&gt; %new_value</source>
-                <target>Изменена тяжесть: %previous_value =&gt; %new_value</target>
+                <target>Изменена серьезность: %previous_value =&gt; %new_value</target>
             </trans-unit>
             <trans-unit id="6c963ce8a9811eb5d9e149ad05a6c607">
                 <source>Reproducability changed: %previous_value =&gt; %new_value</source>
@@ -7695,9 +7829,11 @@
             </trans-unit>
             <trans-unit id="33a55d5e88c7b3f329cb0c7b9ee87d43">
                 <source>Posted by changed: %previous_value =&gt; %new_value</source>
+                <target>Измене пользователь, добавивший задачу: %previous_value =&gt; %new_value</target>
             </trans-unit>
             <trans-unit id="90b03a44457739634400a1db2db30c3b">
                 <source>%field_name changed: %previous_value =&gt; %new_value</source>
+                <target>Изменено %field_name: %previous_value =&gt; %new_value</target>
             </trans-unit>
             <trans-unit id="011ea064584c6fd0a7109603513f0597">
                 <source>Custom field changed</source>
@@ -7705,30 +7841,39 @@
             </trans-unit>
             <trans-unit id="9b96748ab275876f3317285b06cf9ec9">
                 <source>Pain bug type on issue changed: %previous_value =&gt; %new_value</source>
+                <target>Изменен тип проблемности задачи: %previous_value =&gt; %new_value</target>
             </trans-unit>
             <trans-unit id="d28342d8285c55380b66be447ba30ae2">
                 <source>Pain effect on issue changed: %previous_value =&gt; %new_value</source>
+                <target>Изменен эффект проблемности задачи: %previous_value =&gt; %new_value</target>
             </trans-unit>
             <trans-unit id="e297c6aab6def4669de239149e7ab11a">
                 <source>Likelihood on issue changed: %previous_value =&gt; %new_value</source>
+                <target>Изменена похожесть задачи: %previous_value =&gt; %new_value</target>
             </trans-unit>
             <trans-unit id="8d3ef69f7eae51137070528f8f9cff12">
                 <source>Calculated pain on issue changed: %value</source>
+                <target>Изменена расчетная проблемность задачи: %value</target>
             </trans-unit>
             <trans-unit id="c97dcfb919067de6438f90fc01124dd1">
                 <source>User working on issue changed: %previous_value =&gt; %new_value</source>
+                <target>Изменен пользователь, работающий над задачей: %previous_value =&gt; %new_value</target>
             </trans-unit>
             <trans-unit id="31b867009824b5b9a57925c887b96c99">
                 <source>Assignee changed to %new_value</source>
+                <target>Задача назначена %new_value</target>
             </trans-unit>
             <trans-unit id="977221374dec3c9f1587f1581641ac5d">
                 <source>Time spent changed: %value</source>
+                <target>Изменено затраченное время: %value</target>
             </trans-unit>
             <trans-unit id="ce97e40bf4e239c599782a6e31860f56">
                 <source>Percent complete changed: %previous_value =&gt; %new_value</source>
+                <target>Изменен процент завершения: %previous_value =&gt; %new_value</target>
             </trans-unit>
             <trans-unit id="ae6f525747e04fda1b17397c10979dd4">
                 <source>Blocking status changed: %value</source>
+                <target>Изменен статус блокировки: %value</target>
             </trans-unit>
             <trans-unit id="894b61f6d062e58a2c97bf3e6f23ec8e">
                 <source>This issue is blocking the next release</source>
@@ -7736,21 +7881,27 @@
             </trans-unit>
             <trans-unit id="b87075cf5ff5f4c3776150b6beabba1b">
                 <source>This issue is no more blocking the next release</source>
+                <target>Эта задача больше не блокирует следующий релиз</target>
             </trans-unit>
             <trans-unit id="c88ca751f02fcd7bec2409f2cb7fd969">
                 <source>Estimated time changed: %value</source>
+                <target>Изменено расчетное время: %value</target>
             </trans-unit>
             <trans-unit id="0c96b206bd90d4fbeb6c6279ef091721">
                 <source>Affected item added: %value</source>
+                <target>Добавлен затронутый элемент: %value</target>
             </trans-unit>
             <trans-unit id="732a0c024536708cd9bf236d6e42798e">
                 <source>Affected item updated: %value</source>
+                <target>Изменен затронутый элемент: %value</target>
             </trans-unit>
             <trans-unit id="07cf5a609ccc61a6c36d32a77d59d1e2">
                 <source>Affected time removed: %value</source>
+                <target>Удалено затронутое время: %value</target>
             </trans-unit>
             <trans-unit id="c968d4a8d8d1eeee366f61fa25703f6e">
                 <source>Reproduction steps changed: %previous_value =&gt; %new_value</source>
+                <target>Изменены шаги для воспроизведения: %previous_value =&gt; %new_value</target>
             </trans-unit>
             <trans-unit id="fe04fac99274b3e4cf43911cf2aab2d7">
                 <source>Unknown change</source>
@@ -7780,7 +7931,7 @@
             </trans-unit>
             <trans-unit id="5cb454be8b8933c316eea1aa39cb7285">
                 <source>Additional actions available</source>
-                <target>Доступны дополнительные действия</target>
+                <target>Доступные дополнительные действия</target>
             </trans-unit>
             <trans-unit id="1e2e6359c638578a7d97af33681a7a37">
                 <source>Mark as not blocking the next release</source>
@@ -7788,7 +7939,7 @@
             </trans-unit>
             <trans-unit id="caebe88ed6aa13646e2c5550abb2a653">
                 <source>Mark as blocking the next release</source>
-                <target>Отметить как заблокированную в следующем релизе</target>
+                <target>Отметить как блокирующую следующий релиз</target>
             </trans-unit>
             <trans-unit id="d080f4ce2751a0a83a77608023ec9eb3">
                 <source>This action is not available when this issue is closed</source>
@@ -7808,6 +7959,7 @@
             </trans-unit>
             <trans-unit id="e41be70a44300a124ca54682d27653d9">
                 <source>Before you can upload attachments, file uploads needs to be activated</source>
+                <target>Для того, чтобы добавлять вложения, должна быть включена подгрузка файлов</target>
             </trans-unit>
             <trans-unit id="244a65147efe1dc8c49ae907ebf30f68">
                 <source>You are not allowed to add an item to this list</source>
@@ -7847,7 +7999,7 @@
             </trans-unit>
             <trans-unit id="743afdf69d3056c873e6f311456fcddc">
                 <source>Update issue access policy</source>
-                <target>Обновить политику доступа задачи</target>
+                <target>Изменить политику доступа задачи</target>
             </trans-unit>
             <trans-unit id="95324a055bb724f59c4bde5a7bcb150b">
                 <source>Manage issue subscribers</source>
@@ -7859,15 +8011,15 @@
             </trans-unit>
             <trans-unit id="f9b62cbb92043bf2a246db066550a511">
                 <source>Permanently delete this issue?</source>
-                <target>Совсем удалить эту задачу?</target>
+                <target>Удалить эту задачу?</target>
             </trans-unit>
             <trans-unit id="3b889a665d77e987009ce011d65bd1a7">
                 <source>Are you sure you wish to delete this issue? It will remain in the database for your records, but will not be accessible via The Bug Genie.</source>
-                <target>Вы хотите удалить эту задачу? После удаления она сохранится в базе данных, но не будет доступна через программу.</target>
+                <target>Вы действительно хотите удалить эту задачу? После удаления она сохранится в базе данных, но не будет доступна в The Bug Genie.</target>
             </trans-unit>
             <trans-unit id="1b599fb4e22f220dc3f313311a20226c">
                 <source>Permanently delete this issue</source>
-                <target>Удалить эту задачу совсем</target>
+                <target>Удалить эту задачу</target>
             </trans-unit>
             <trans-unit id="0027d0122fd35fded9ffb241a63d76f9">
                 <source>No additional actions available</source>
@@ -7897,9 +8049,11 @@
             </trans-unit>
             <trans-unit id="7b08cb0412394257e16e93ca529315e4">
                 <source>Available to anyone with access to project</source>
+                <target>Доступно всем, у кого есть доступ к проекту</target>
             </trans-unit>
             <trans-unit id="b82060a4899297196d3abea049deb16d">
                 <source>Available to anyone with access to project, category and those listed below</source>
+                <target>Доступно всем, у кого есть доступ к проекту, категории и всем тем, кто перечислен ниже</target>
             </trans-unit>
             <trans-unit id="0a486fd70dbcd54b447a4c7d15869789">
                 <source>Available only to you and those listed below</source>
@@ -7928,7 +8082,7 @@
         <body>
             <trans-unit id="89430e7e6c2c81b7212f4b01ddb87e66">
                 <source>Issue time tracking - edit time spent entry</source>
-                <target>Время выполнения задачи - редактирование испоользованного времени</target>
+                <target>Учет времени задачи - редактирование записи о затраченном времени</target>
             </trans-unit>
             <trans-unit id="43c33224f80b98f02ee2320090163b02">
                 <source>Edit entry</source>
@@ -7936,7 +8090,7 @@
             </trans-unit>
             <trans-unit id="2393c77310837bbcda16932ad5b008ef">
                 <source>Time logged at</source>
-                <target>Время входа в систему</target>
+                <target>Время записи</target>
             </trans-unit>
             <trans-unit id="ecfc2dffe568c10a67dbc6d3724cfde2">
                 <source>Activity</source>
@@ -7944,7 +8098,7 @@
             </trans-unit>
             <trans-unit id="622d69cedcb8ce9393b78b85ecf97ae4">
                 <source>Points spent</source>
-                <target>Потрачено очков</target>
+                <target>Затрачено очков</target>
             </trans-unit>
             <trans-unit id="f5e7a68a240624351e7cfecc6bfcecb4">
                 <source>Minutes spent</source>
@@ -7972,7 +8126,7 @@
             </trans-unit>
             <trans-unit id="870b5a9ceadbb7ae249580bbd34345ab">
                 <source>Update entry</source>
-                <target>Обновить запись</target>
+                <target>Сохранить запись</target>
             </trans-unit>
             <trans-unit id="0557fa923dcee4d0f86b1409f5c2167f">
                 <source>Back</source>
@@ -7985,10 +8139,11 @@
         <body>
             <trans-unit id="4c8855fd1f94a50818ff367432587b95">
                 <source>'1 hour', '1 day, 3 hours' or similar</source>
-                <target>'1 час', '1 день, 3 часа' или тому подобное</target>
+                <target>'1 час', '1 день, 3 часа' или подобное</target>
             </trans-unit>
             <trans-unit id="e9d6e4f981e1b1deeb5eb4a80b123f77">
                 <source>Entering time spent is easy. TBG will make a best effort at understanding what you type, as long as you follow some basic rules:</source>
+                <target>Указать затраченное время просто. TBG легко сможет понять, какое время вы вводите, если вы соблюдаете следующие простые правила:</target>
             </trans-unit>
             <trans-unit id="b8955b6c27183c8f5218cbb40f7729f1">
                 <source>Separate time with commas: &quot;1 day, 3 hours&quot; is fine, but &quot;1 day 3 hours&quot; will not be understood</source>
@@ -8003,6 +8158,7 @@
             </trans-unit>
             <trans-unit id="d1a69a3314fa6b5bf26fd27e9c30ed74">
                 <source>Log time entry</source>
+                <target>Добавить время</target>
             </trans-unit>
         </body>
     </file>
@@ -8011,9 +8167,11 @@
         <body>
             <trans-unit id="57ff37ed03316e23a7daba5476c1c265">
                 <source>Issue time tracking - time spent</source>
+                <target>Учет времени задачи - затраченное время</target>
             </trans-unit>
             <trans-unit id="92f83d641b90e6d903cdad0320d1da03">
                 <source>The list below shows all time logged against this issue so far.</source>
+                <target>В расположенном ниже списке представлены все записи о времени, затраченном на эту задачу.</target>
             </trans-unit>
             <trans-unit id="44749712dbec183e983dcd78a7736c41">
                 <source>Date</source>
@@ -8021,9 +8179,11 @@
             </trans-unit>
             <trans-unit id="d86dee9c644a3a8de53a2e42de05cdd5">
                 <source>Logged by</source>
+                <target>Кто записал</target>
             </trans-unit>
             <trans-unit id="e5473b160ec2e9ab503a4b16a3f8f1ba">
                 <source>Time logged</source>
+                <target>Время</target>
             </trans-unit>
             <trans-unit id="b6f0e8cece09a3c00711d2371debdfba">
                 <source>Do you really want to remove this time entry?</source>
@@ -8034,7 +8194,7 @@
             </trans-unit>
             <trans-unit id="1063e38cb53d94d386f21227fcd84717">
                 <source>Remove</source>
-                <target>Убрать</target>
+                <target>Удалить</target>
             </trans-unit>
         </body>
     </file>
@@ -8043,9 +8203,11 @@
         <body>
             <trans-unit id="064d045e5d7acaf9b3ee5513e1f83cc3">
                 <source>Subscribe someone to this issue</source>
+                <target>Подписать пользователя на задачу</target>
             </trans-unit>
             <trans-unit id="c795b10e4351752fc9ef80d255a76018">
                 <source>The list below shows all users manually subscribed to notifications about this issue. To toggle whether they receive notifications, click the star next to their name.</source>
+                <target>В расположенном ниже списке показаны все пользователи, вручную подписавшиеся на уведомления относительно этой задачи. Для включения/отключения получения ими уведомлений, нажмите звездочку рядом с имененем.</target>
             </trans-unit>
         </body>
     </file>
@@ -8054,6 +8216,7 @@
         <body>
             <trans-unit id="46c974576287726bf89270425e7f7276">
                 <source>Log in with your username and password</source>
+                <target>Войдите, используя свои имя пользователя и пароль</target>
             </trans-unit>
             <trans-unit id="6ad7d86812ec1247b322a3f1e3a6e4f2">
                 <source>Keep me logged in</source>
@@ -8081,7 +8244,7 @@
             </trans-unit>
             <trans-unit id="2fdfd506efea08144c0794c32ca8250a">
                 <source>Create an account</source>
-                <target>Создать аккаунт</target>
+                <target>Создать учетную запись</target>
             </trans-unit>
         </body>
     </file>
@@ -8094,6 +8257,7 @@
             </trans-unit>
             <trans-unit id="302b92a61b96c70632edb7902834586b">
                 <source>The &quot;nickname&quot; will be shown to other users</source>
+                <target>Псевдоним, под которым вы будете видны другим пользователям</target>
             </trans-unit>
             <trans-unit id="8b5dd64ab8d0b8158906796b53a200e2">
                 <source>E-mail address</source>
@@ -8109,7 +8273,7 @@
             </trans-unit>
             <trans-unit id="0dafefffcd5cf87f25cc5922f491f97b">
                 <source>Register a new account</source>
-                <target>Регистрировать новый аккаунт</target>
+                <target>Зарегистрировать новую учетную запись</target>
             </trans-unit>
             <trans-unit id="0454094707617d7e6de59b95a012f1e6">
                 <source>Thank you for registering!</source>
@@ -8174,7 +8338,7 @@
             </trans-unit>
             <trans-unit id="ae255fa3d1c511788baa8a491fa6c37f">
                 <source>Severity changed: %text</source>
-                <target>Строгость измененена: %text</target>
+                <target>Изменена серьезность: %text</target>
             </trans-unit>
             <trans-unit id="4b51629799d44d1d40daf53510fb579f">
                 <source>Resolution changed: %text</source>
@@ -8186,7 +8350,7 @@
             </trans-unit>
             <trans-unit id="6c277c1999413564a394f85774df5f9b">
                 <source>Target milestone changed: %text</source>
-                <target>Назначенный этап изменен: %text</target>
+                <target>Целевой этап изменен: %text</target>
             </trans-unit>
             <trans-unit id="9a9e93ae2bf16c4bbcf80665f02fd7e2">
                 <source>Issue type changed: %text</source>
@@ -8268,9 +8432,11 @@
             </trans-unit>
             <trans-unit id="fb45735a0ac6c52c953f4be031ebed46">
                 <source>To add free text, just enter text in the description - without any url - and press the &quot;%add_link&quot; button (Text will be parsed according to the %wiki_formatting).</source>
+                <target>Для добавления произвольного текста, просто введите текст в поле описания (без ссылки) - затем нажмите кнопку &quot;%add_link&quot; (текст будет распознан согласно правилам %wiki_formatting).</target>
             </trans-unit>
             <trans-unit id="643daeb01ab2b7330646f80e43f87a34">
                 <source>To add a spacer, just press &quot;%add_link&quot;, without any url or description.</source>
+                <target>Для добавления разделителя, просто нажмите &quot;%add_link&quot; без ссылки и описания.</target>
             </trans-unit>
             <trans-unit id="296580eedc2c4f68d401fc1ec7e8e161">
                 <source>%cancel or %attach_link</source>
@@ -8353,6 +8519,7 @@
         <body>
             <trans-unit id="436e0c9f50c6dd88dc15a5d6660bd8e3">
                 <source>Click &quot;%save&quot; to save changes in the &quot;%module_settings_name&quot; category</source>
+                <target>Нажмите &quot;%save&quot;  для сохранения изменений в категории &quot;%module_settings_name&quot;</target>
             </trans-unit>
         </body>
     </file>
@@ -8365,7 +8532,7 @@
             </trans-unit>
             <trans-unit id="9a2503d213073cc06ce9adf3f5109d8b">
                 <source>You haven't marked anyone as a friend</source>
-                <target>У вас еще нет друзей</target>
+                <target>Вы еще не добавили друзей</target>
             </trans-unit>
         </body>
     </file>
@@ -8481,7 +8648,7 @@
             </trans-unit>
             <trans-unit id="695483be3c88e171d1aa093f5164419a">
                 <source>Your Blogger account</source>
-                <target>Ваш Blogger аккаунт</target>
+                <target>Ваша учетная запись Blogger</target>
             </trans-unit>
             <trans-unit id="8a7e825eb7183cb9146eda34ed4a2402">
                 <source>Your Verisign username</source>
@@ -8493,7 +8660,7 @@
             </trans-unit>
             <trans-unit id="459a8e6dd31aa3245c3e1589c36b7df7">
                 <source>Your ClaimID username</source>
-                <target>Ваш ClaimID аккаунт</target>
+                <target>Ваша учетная запись ClaimID</target>
             </trans-unit>
             <trans-unit id="514388fc6247cb5aacf640d805b45619">
                 <source>Enter your ClickPass username</source>
@@ -8514,10 +8681,11 @@
         <body>
             <trans-unit id="b7f22fc987366829c48696c6c2660c90">
                 <source>This is your personal dashboard page - your starting point when logging in to The Bug Genie. This dashboard page will show projects and people you are associated with, as well as interesting views.</source>
-                <target>Это ваш личный рабочий стол - главная страница The Bug Genie. На этой странице будут показаны проекты и люди, с которыми Вы связаны.</target>
+                <target>Это ваш личный рабочий стол - главная страница The Bug Genie. На этой странице будут показаны проекты и люди, с которыми вы связаны.</target>
             </trans-unit>
             <trans-unit id="40d7b3e8307c3fab27797439863ecb9f">
                 <source>Your dashboard is empty right now, but it can be configured and personalized. To configure what views to show on this dashboard, click the &quot;Customize dashboard&quot;-icon in the top-right user menu.</source>
+                <target>Ваш рабочий стол пока что пуст, но он может быть наполнен необходимой информацией и настроен согласно вашим предпочтениям. Для настройки того, какие представления должны быть показаны на рабочем столе, нажмите &quot;Настроить рабочий стол&quot; в меню пользователя.</target>
             </trans-unit>
             <trans-unit id="68fb8b6880e18e0878c0a4fc25919fc5">
                 <source>Your dashboard page is accessible from anywhere - click your username in the top right header area at any time to access your dashboard.</source>
@@ -8566,10 +8734,11 @@
         <body>
             <trans-unit id="e40c2a3698ccb0a60568482c9d3a012d">
                 <source>Remove relation to issue %itemname?</source>
-                <target>Убрать связи с задачей %itemname?</target>
+                <target>Удалить связь с задачей %itemname?</target>
             </trans-unit>
             <trans-unit id="c19cec3cf9a42063b52453ebdd6810dd">
                 <source>Please confirm that you want to remove this item from the list of issues related to this issue</source>
+                <target>Подтвердите, что вы хотите удалить этот элемент из списка задач, связанных с этой задачей</target>
             </trans-unit>
         </body>
     </file>
@@ -8578,7 +8747,7 @@
         <body>
             <trans-unit id="09e9e017a981567c70494cc86ebdfeb4">
                 <source>This issue does not have any child issues</source>
-                <target>Эта задача не имеет подчиненных задач</target>
+                <target>У этой задачи нет подчиненных задач</target>
             </trans-unit>
         </body>
     </file>
@@ -8624,6 +8793,7 @@
             </trans-unit>
             <trans-unit id="3d9dc122cfa90a59f5531cccd376330d">
                 <source>You have to enter a label in the &quot;%issue_label&quot; field</source>
+                <target>Необходимо ввести метку в поле &quot;%issue_label&quot;</target>
             </trans-unit>
             <trans-unit id="ff1ed71746646cec47f7cc2773a68ddb">
                 <source>You have to enter something in the &quot;%steps_to_reproduce&quot; field</source>
@@ -8663,7 +8833,7 @@
             </trans-unit>
             <trans-unit id="8806ec16a6147f5f2b723e62953f0eb2">
                 <source>Please specify a valid severity</source>
-                <target>Пожалуйста, укажите верную строгость</target>
+                <target>Пожалуйста, укажите верную серьезность</target>
             </trans-unit>
             <trans-unit id="4de55804c5492c419cf8e104866dedb6">
                 <source>Please specify a valid resolution</source>
@@ -8699,7 +8869,7 @@
             </trans-unit>
             <trans-unit id="81d3d5e749e6fb85de86830cb64d0144">
                 <source>Please triage the reported issue, so the user pain score can be properly calculated</source>
-                <target>Пожалуйста, оцените заявку, для более корректного расчета проблемности</target>
+                <target>Пожалуйста, оцените задачу, для более корректного расчета проблемности</target>
             </trans-unit>
             <trans-unit id="e88eb20bab2c8941ccf50e2d9b17d5a1">
                 <source>Required field &quot;%field_name&quot; is missing or invalid</source>
@@ -8719,45 +8889,59 @@
             </trans-unit>
             <trans-unit id="659c4804503ada81e36e5ed27a1b04dd">
                 <source>You don't have access to enter steps to reproduce</source>
+                <target>У вас нет доступа для ввода шагов для воспроизведения</target>
             </trans-unit>
             <trans-unit id="aee2662a96ed094ffa3e95291d0c26d1">
                 <source>You don't have access to add edition information</source>
+                <target>У вас нет доступа для добавления информации о редакции</target>
             </trans-unit>
             <trans-unit id="83ec0a5285873ffbb0ffe1266deb81e7">
                 <source>You don't have access to enter release information</source>
+                <target>У вас нет доступа для ввода информации о релизе</target>
             </trans-unit>
             <trans-unit id="d3b6fc578865950d31de197d5409793e">
                 <source>You don't have access to enter component information</source>
+                <target>У вас нет доступа для ввода информации о затронутых компонентах</target>
             </trans-unit>
             <trans-unit id="3a10f959b81d2a9c35d5a686b178ee2f">
                 <source>You don't have access to specify a category</source>
+                <target>У вас нет доступа для указания категории</target>
             </trans-unit>
             <trans-unit id="4f87264f9e3804dfcdf3c8ef3c45c8bb">
                 <source>You don't have access to specify a status</source>
+                <target>У вас нет доступа для указания состояния</target>
             </trans-unit>
             <trans-unit id="b61ddb1fa8b73a1fc552a35a18ef42e6">
                 <source>You don't have access to specify a priority</source>
+                <target>У вас нет доступа для указания приоритета</target>
             </trans-unit>
             <trans-unit id="e9d6d57df3c1029944cc918a6745498a">
                 <source>You don't have access to specify reproducability</source>
+                <target>У вас нет доступа для указания воспроизводимости</target>
             </trans-unit>
             <trans-unit id="864ee5361116345f6564734ce4721517">
                 <source>You don't have access to specify a severity</source>
+                <target>У вас нет доступа для указания строгости</target>
             </trans-unit>
             <trans-unit id="a13c926def4fae5caf700a6aa8fbe4dc">
                 <source>You don't have access to specify a resolution</source>
+                <target>У вас нет доступа для указания решения</target>
             </trans-unit>
             <trans-unit id="b01a64d08b48cc1a37c36b8fbd08ce61">
                 <source>You don't have access to estimate the issue</source>
+                <target>У вас нет доступа к оценке задачи</target>
             </trans-unit>
             <trans-unit id="49866cb84c0240d2d3d1e4f82c60ca9e">
                 <source>You don't have access to specify time already spent working on the issue</source>
+                <target>У вас нет доступа для указания времени, затраченного на выполнение задачи</target>
             </trans-unit>
             <trans-unit id="a25d1da9eea21510cb183fae14f8abf8">
                 <source>You don't have access to specify how many percent complete the issue is</source>
+                <target>У вас нет доступа для указания процента завершения задачи</target>
             </trans-unit>
             <trans-unit id="efe872dc77b9a1b3081e03c735a0b406">
                 <source>You don't have access to enter &quot;%field_name&quot;</source>
+                <target>У вас нет доступа для ввода &quot;%field_name&quot;</target>
             </trans-unit>
             <trans-unit id="410d4dfbfba7909a5d81ef2cc2a5e036">
                 <source>Please try to fix the error described above, and then click the %file_issue button again</source>
@@ -8773,7 +8957,7 @@
             </trans-unit>
             <trans-unit id="21d8e6c0eb314d2f0506ad443cca4ed2">
                 <source>Click the link to visit the reported issue</source>
-                <target>Кликните по ссылке что бы перейти к опубликованной задаче</target>
+                <target>Нажмите на ссылку, чтобы перейти к созданной задаче</target>
             </trans-unit>
             <trans-unit id="dad3c529c7ac7b36dc487106f1ba2886">
                 <source>Report another issue</source>
@@ -8781,13 +8965,15 @@
             </trans-unit>
             <trans-unit id="5719f59df1d9e0c41ad38ad634921ee5">
                 <source>You are adding an issue to %milestone_name</source>
+                <target>Вы добавляете задачу к этапу %milestone_name</target>
             </trans-unit>
             <trans-unit id="2a3e4ccb92146f9fef73cbf19c5adfc5">
                 <source>Issues you create will be child issues of %related_issue_title</source>
-                <target>Создаваемая заявка будет дочерней по отношению к %related_issue_title</target>
+                <target>Создаваемая задача будет дочерней по отношению к %related_issue_title</target>
             </trans-unit>
             <trans-unit id="4f72320fd02164635a8dffa82a47c7ce">
                 <source>You are adding an issue to release %release_name</source>
+                <target>Вы добавляете задачу к релизу %release_name</target>
             </trans-unit>
             <trans-unit id="867e59709a826269ef18be01e48e7a93">
                 <source>Choose %issuetype_name</source>
@@ -8847,7 +9033,7 @@
             </trans-unit>
             <trans-unit id="02efbc4ff287256a26ec61eed2057eee">
                 <source>Choose the component affected by this issue</source>
-                <target>Выберите затронутый компонент для этой задачи</target>
+                <target>Выберите компонент, затронутый этой задачей</target>
             </trans-unit>
             <trans-unit id="2ce37c92703f186e5d0e483cb38e5319">
                 <source>Estimate</source>
@@ -8921,7 +9107,7 @@
             </trans-unit>
             <trans-unit id="2f2afe16c754e7ac85015df52b52090b">
                 <source>Choose a severity for this issue</source>
-                <target>Выберите строгость для этой задачи</target>
+                <target>Выберите серьезность для этой задачи</target>
             </trans-unit>
             <trans-unit id="5f2cb82b37d3c1873429e64a7162b5f9">
                 <source>Custom access policy</source>
@@ -8981,11 +9167,11 @@
             </trans-unit>
             <trans-unit id="9bc2ae8219138443f3f2d8ff8d899398">
                 <source>Set resolution</source>
-                <target>Установить решение</target>
+                <target>Задать решение</target>
             </trans-unit>
             <trans-unit id="2afc366bfe30ebd857dffc192852e12c">
                 <source>Set severity</source>
-                <target>Установить строгость</target>
+                <target>Установить серьезность</target>
             </trans-unit>
         </body>
     </file>
@@ -9026,6 +9212,7 @@
             </trans-unit>
             <trans-unit id="9fdc8b842786a353e76ebb9a3aa3cff8">
                 <source>Comments entered here will be added to the issue with the file.</source>
+                <target>Введенные здесь комментарии будут добавлены к задаче вместе с файлом.</target>
             </trans-unit>
             <trans-unit id="7326f8ff7175f099f6c0a4395b82085a">
                 <source>Press the %upload_and_attach button to upload and attach the file</source>
@@ -9082,9 +9269,11 @@
         <body>
             <trans-unit id="f70ea4ea42814a45bfb084d72faab146">
                 <source>Mediawiki</source>
+                <target>Mediawiki</target>
             </trans-unit>
             <trans-unit id="2182a74bab7188d959e795d9301e87ff">
                 <source>Markdown</source>
+                <target>Markdown</target>
             </trans-unit>
             <trans-unit id="798f266791eff3fab6a382c14e682900">
                 <source>Plaintext</source>
@@ -9130,6 +9319,7 @@
             </trans-unit>
             <trans-unit id="4c33521837054a908c0a9a5c03bef202">
                 <source>To specify bold text put text between two stars, and for underlines put text between two underscores.</source>
+                <target>Для ввода полужирного текста, введите текст между двумя звездочками (*), для подчеркивания - между двумя знаками подчеркивания (_).</target>
             </trans-unit>
             <trans-unit id="e3e1c68d58fdbd5858eea7b3f16f8720">
                 <source>The Bug Genie uses an enhanced flavor of the markdown syntax, which makes each newline count. If you want to add a linebreak, add a new line and it will be presented just like you type.</source>
@@ -9149,6 +9339,7 @@
             </trans-unit>
             <trans-unit id="bc64d8cc450c865875c3042275b1e05b">
                 <source>You can use simple formatting tags for underlined text (&lt;b&gt;&lt;/b&gt;) or strikethrough (&lt;strike&gt;&lt;/strike&gt;).</source>
+                <target>Вы можете использовать простые теги форматирования для подчеркнутого (&lt;b&gt;&lt;/b&gt;) или зачеркнутого (&lt;strike&gt;&lt;/strike&gt;) текста.</target>
             </trans-unit>
             <trans-unit id="1e1df358305ad6cb38c9f8b441334ea1">
                 <source>You can create a link directly to a wikipedia page by using the &quot;WIKIPEDIA:&quot; link namespace: &quot;Here is a link to the wikipedia article about [[WIKIPEDIA:Norway|Norway]].</source>
@@ -9162,6 +9353,7 @@
             </trans-unit>
             <trans-unit id="bccad9f682370372abf7958646c8ab30">
                 <source>If you want to add text that is not supposed to be parsed, put it inside &lt;nowiki&gt; tags, or start the line with a space.</source>
+                <target>Если вы хотите ввести текст, который не следует обрабатывать, поместите его внутри тегов&lt;nowiki&gt;, или начните новую строку с пробела.</target>
             </trans-unit>
             <trans-unit id="08b28780d89b2bcff420c8aa664b2bb4">
                 <source>See more formatting tips in %wiki_formatting.</source>
@@ -9184,6 +9376,7 @@
             </trans-unit>
             <trans-unit id="10ac3d04253ef7e1ddc73e6091c0cd55">
                 <source>Next</source>
+                <target>Дальше</target>
             </trans-unit>
             <trans-unit id="20c404f3ca0633629eee9b1b4ccd6737">
                 <source>Getting help</source>
@@ -9294,6 +9487,7 @@
             </trans-unit>
             <trans-unit id="a60d46b6411cb05588a716ff5903e5cc">
                 <source>Yes, epics. Epics (specified in the board configuration) are issues of a certain types, they contain sub-issues and / or tasks, and can span multiple milestones / sprints.</source>
+                <target>Да, эпики. Эпики (указанные в настройках доски) представляют собой задачи определенных типов, которые обычно содержат подчиненные задачи и/или задания, и могут растягиваться на несколько этапов / спринтов.</target>
             </trans-unit>
             <trans-unit id="776ac66082130aa07754fb9ca11e5355">
                 <source>Epics, like releases, are displayed as a card list, they can filter issues by clicking on them, and you can assign an issue to an epic by dropping the issue on the epic.</source>
@@ -9304,6 +9498,7 @@
             </trans-unit>
             <trans-unit id="466bb9f5b168eda3cbcfbe8914d67d69">
                 <source>Progress bars</source>
+                <target>Индикаторы выполнения</target>
             </trans-unit>
             <trans-unit id="d34b80a3b33cab12c42896d4f4d46f70">
                 <source>Milestones, releases and epics all have progress bars which indicate their current progress. In all cases, this is an open vs closed issues count. The progress bar will automatically update whenever it changes, such as when you add an issue to it.</source>
@@ -9314,6 +9509,7 @@
             </trans-unit>
             <trans-unit id="fe32c6fcf86698d51c273cd74cdf1d5a">
                 <source>Ready to roll</source>
+                <target>Готов начать</target>
             </trans-unit>
             <trans-unit id="070e5943e52948525ee4700a3cb09578">
                 <source>That's all. Begin by creating a new milestone on this page, or use an existing milestone if there are any. Create an issue with the '%report_an_issue'-button in the top bar, or by using the button on each milestone to add issues directly to the milestone.</source>
@@ -9364,6 +9560,7 @@
             </trans-unit>
             <trans-unit id="10c36c8d63882f659f8f5025a82a2ec0">
                 <source>These buttons will also follow you down the page as you scroll.</source>
+                <target>Эти кнопки будут следовать за прокруткой страницы вниз.</target>
             </trans-unit>
             <trans-unit id="20f8f76a1479a8488d037fcaaf0056c2">
                 <source>This area contains all the data about an issue, such as the status, who's assigned, how much time is spent, etc.</source>
@@ -9439,6 +9636,7 @@
             </trans-unit>
             <trans-unit id="1696b76168b318f6a6e87e55b0c1e4f0">
                 <source>This transition will be applied to %count selected issues</source>
+                <target>Этот переход был применен к %count выбранным задачам</target>
             </trans-unit>
             <trans-unit id="780f85493892dc48b674ac9da8974133">
                 <source>Assignee</source>
@@ -9465,7 +9663,7 @@
             </trans-unit>
             <trans-unit id="dc0b281eaa37b0cc92a480eaa08dc58b">
                 <source>Specify the target milestone for this issue</source>
-                <target>Назначить этап этой задаче</target>
+                <target>Укажите целевой этап этой задаче</target>
             </trans-unit>
             <trans-unit id="ecf7de776c7ad3b6bfba9aa850ede50e">
                 <source>Milestone isn't visible for this issuetype / product combination</source>
@@ -9523,9 +9721,11 @@
             </trans-unit>
             <trans-unit id="403816e63eabae8f7fcc3d76965f0be1">
                 <source>Last user activity was at %time</source>
+                <target>Последний раз пользователь был активен в %time</target>
             </trans-unit>
             <trans-unit id="ea655ebbc85f209ada60ab39399e648d">
                 <source>This user has reported %issues issue(s)</source>
+                <target>Этот пользователь создал %issues задач</target>
             </trans-unit>
             <trans-unit id="b924c576f2b656c5ded778196edc9826">
                 <source>Show issues</source>
@@ -9541,6 +9741,7 @@
             </trans-unit>
             <trans-unit id="d8713d642dab0fdf7628a53c40520772">
                 <source>This user has not reported any issues yet</source>
+                <target>Этот пользователь пока не создал ни одной задачи</target>
             </trans-unit>
             <trans-unit id="eac9a7e53ccfaaee123c85f6141c9a63">
                 <source>Member of the following teams:&lt;/b&gt; %list_of_teams</source>
@@ -9574,7 +9775,7 @@
         <body>
             <trans-unit id="2f2e4bf143eb7def1cc700972ec5b4ea">
                 <source>Remove access to / from this scope?</source>
-                <target>Убрать  достук к / из этой области??</target>
+                <target>Убрать  доступ к / из этой области?</target>
             </trans-unit>
             <trans-unit id="b29a7360cfb41f575e9b76e6d9328670">
                 <source>Do you really want to remove the link to this scope?</source>
@@ -9634,6 +9835,7 @@
             </trans-unit>
             <trans-unit id="040748223b9f130e12991e62d102cd41">
                 <source>These icons may be freely distributed under the %link_to_license</source>
+                <target>Эти значки можно свободно распространять по %link_to_license</target>
             </trans-unit>
         </body>
     </file>
@@ -9645,7 +9847,7 @@
             </trans-unit>
             <trans-unit id="0eb8c5a1bcadd2a7170717cf6990bd03">
                 <source>Do you want to register your username in this scope? This will link your main user account to this scope and give you access to the scope just like a regular user.</source>
-                <target>Вы хотите зарегистрировать ваше имя пользователя в этой области? Это позволит связать ваш основной аккаунт с этой областью и получить доступ к области такой же как у обычного пользователя.</target>
+                <target>Вы хотите зарегистрировать ваше имя пользователя в этой области? Это позволит связать вашу основную учетную запись с этой областью и получить доступ к этой области таким же образом, что и обычный пользователь.</target>
             </trans-unit>
             <trans-unit id="b20401fd2c58a93d98376c471e49f0e0">
                 <source>NOTE: Registering in this scope will give administrators in this scope access to your user details such as username, email, name, etc.</source>
@@ -9778,6 +9980,7 @@
             </trans-unit>
             <trans-unit id="3af0e63ff45f01cd770ac63c854503fb">
                 <source>You are not allowed to access this page</source>
+                <target>У Вас нет доступа к этой странице</target>
             </trans-unit>
         </body>
     </file>
@@ -9786,6 +9989,7 @@
         <body>
             <trans-unit id="26964d48c1b21cd68c7d50a2dea7597b">
                 <source>You do not have access to this action</source>
+                <target>У Вас нет доступа для выполнения этого действия</target>
             </trans-unit>
         </body>
     </file>
@@ -9852,6 +10056,7 @@
             </trans-unit>
             <trans-unit id="1cb3019611bdb3aaac5ad567d3772b4f">
                 <source>Add application password</source>
+                <target>Добавить пароль приложения</target>
             </trans-unit>
             <trans-unit id="f5b0e5815c24779d026c41ef11ecc727">
                 <source>%add_application_password or %cancel</source>
@@ -9859,6 +10064,7 @@
             </trans-unit>
             <trans-unit id="4ef900436f646822c7c94501697b8d6f">
                 <source>Application password generated</source>
+                <target>Пароль приложения сгенерирован</target>
             </trans-unit>
             <trans-unit id="39f070ab173f91d649b5279651bf04a9">
                 <source>Use this one-time password when authenticating with the application. Spaces don't matter, and you don't have to write it down.</source>
@@ -9955,7 +10161,7 @@
             </trans-unit>
             <trans-unit id="b0ac482c101a0ba6a57ba1d576b8ee65">
                 <source>Click &quot;%save&quot; to save your account information</source>
-                <target>Нажмите &quot;%save&quot;, чтобы сохранить информацию вашего аккаунта</target>
+                <target>Нажмите &quot;%save&quot;, чтобы сохранить информацию вашей учетной записи</target>
             </trans-unit>
             <trans-unit id="846495f9ceed11accf8879f555936a7d">
                 <source>Navigation</source>
@@ -10017,6 +10223,7 @@
             </trans-unit>
             <trans-unit id="dc8b07f8694e1ad59b3c5e714f808e55">
                 <source>Grant Permission</source>
+                <target>Предоставить разрешение</target>
             </trans-unit>
             <trans-unit id="49cb2d17d9f99483000bec51b5517e59">
                 <source>Test notification</source>
@@ -10037,6 +10244,7 @@
             </trans-unit>
             <trans-unit id="0c0d6282aaf99a443d2f4a2e5cf633aa">
                 <source>Click &quot;%save&quot; to update the settings on this tab</source>
+                <target>Нажмите &quot;%save&quot; для сохранения настроек на этой вкладке</target>
             </trans-unit>
             <trans-unit id="ba10cf3fa5b9246574eac58c0e6e2470">
                 <source>Passwords and keys</source>
@@ -10058,12 +10266,14 @@
             </trans-unit>
             <trans-unit id="862175895abc414d536b6c3eed3a448e">
                 <source>Regenerate your RSS key?</source>
+                <target>Сгенерировать заново Ваш ключ RSS?</target>
             </trans-unit>
             <trans-unit id="ad282d6bd3d56fbfe5549f7f7e18a529">
                 <source>Do you really want to regenerate your RSS access key? By doing this all your previously bookmarked or linked RSS feeds will stop working and you will have to get the link from inside The Bug Genie again.</source>
             </trans-unit>
             <trans-unit id="526d688f37a86d3c3f27d0c5016eb71d">
                 <source>Reset</source>
+                <target>Сброс</target>
             </trans-unit>
             <trans-unit id="5cb40cf9b10ea2d1c1e35e7bd45ac6ce">
                 <source>RSS feeds access key</source>
@@ -10102,7 +10312,7 @@
             </trans-unit>
             <trans-unit id="474a406454091e8ee72c2e76350e97d9">
                 <source>Remove this account link?</source>
-                <target>Убрать ссылку на этот аккаунт?</target>
+                <target>Убрать ссылку на эту учетную запись?</target>
             </trans-unit>
             <trans-unit id="8ae95766d1d307b32ae05070cc72c419">
                 <source>Do you really want to remove the link to this external account?</source>
@@ -10112,19 +10322,19 @@
             </trans-unit>
             <trans-unit id="0222b067afa0b450bf5a868f5bf83dfb">
                 <source>Google account</source>
-                <target>Google аккаунт</target>
+                <target>Учетная запись Google</target>
             </trans-unit>
             <trans-unit id="ae28ee2be50ff087c3de397d1f3928a0">
                 <source>Yahoo account</source>
-                <target>Аккаунт Yahoo</target>
+                <target>Учетная запись Yahoo</target>
             </trans-unit>
             <trans-unit id="f7fb68753bf7e97aa2adf6affe33c8e8">
                 <source>Blogger (google) account</source>
-                <target>Blogger (google)  аккаунт</target>
+                <target>Учетная запись Blogger (google)</target>
             </trans-unit>
             <trans-unit id="66a3a9de0f242aabdf37bb14da1e9a3e">
                 <source>Wordpress account</source>
-                <target>Аккаунт Wordpress</target>
+                <target>Учетная запись Wordpress</target>
             </trans-unit>
             <trans-unit id="7417cb8c96dfa18b715c1a4c25c81873">
                 <source>Launchpad account</source>
@@ -10209,6 +10419,7 @@
             </trans-unit>
             <trans-unit id="b70c8e88afb9ad5c163f6984a168bd82">
                 <source>There was an error creating this issue</source>
+                <target>Произошла ошибка при создании этой задачи</target>
             </trans-unit>
         </body>
     </file>
@@ -10217,6 +10428,7 @@
         <body>
             <trans-unit id="32fe59513f5bbdd353b4527cc6af55ce">
                 <source>Reset your password</source>
+                <target>Сбросить ваш пароль</target>
             </trans-unit>
             <trans-unit id="b2a86f9c9b530bcd3961cf3e106217c8">
                 <source>Repeat your new password</source>
@@ -10224,6 +10436,7 @@
             </trans-unit>
             <trans-unit id="09f70e547738d86643cfadc904efa271">
                 <source>Reset my password</source>
+                <target>Сбросить мой пароль</target>
             </trans-unit>
         </body>
     </file>
@@ -10277,11 +10490,11 @@
             </trans-unit>
             <trans-unit id="44d45960263e6cb76af3c30aaf4fefba">
                 <source>Go to the previous open issue</source>
-                <target>Перейти к предыдующей открытой заявке</target>
+                <target>Перейти к предыдующей открытой задаче</target>
             </trans-unit>
             <trans-unit id="2d831963bf080de99a2b4af954cd8e45">
                 <source>Go to the previous issue (open or closed)</source>
-                <target>Перейти к предыдующей заявке (открытой или закрытой)</target>
+                <target>Перейти к предыдующей задаче (открытой или закрытой)</target>
             </trans-unit>
             <trans-unit id="00e52d949fc1f0e6bd81efd3111c338b">
                 <source>Please log in to bookmark issues</source>
@@ -10305,15 +10518,15 @@
             </trans-unit>
             <trans-unit id="4ca4e9a9ce6da16222b79034c2d28466">
                 <source>This is the user pain value for this issue</source>
-                <target>Уровень проблемности данной заявки</target>
+                <target>Уровень проблемности данной задачи</target>
             </trans-unit>
             <trans-unit id="430a230819a64ce04d5a9383fe883242">
                 <source>Go to the next issue (open or closed)</source>
-                <target>Перейти к следующей заявке (открытой или закрытой)</target>
+                <target>Перейти к следующей задаче (открытой или закрытой)</target>
             </trans-unit>
             <trans-unit id="27708ba47ccb92ac5c8d9539ca5f496d">
                 <source>Go to the next open issue</source>
-                <target>Перейти к следующей открытой заявке</target>
+                <target>Перейти к следующей открытой задаче</target>
             </trans-unit>
             <trans-unit id="1cbb2bce941e717960ad9147564fe259">
                 <source>Could not save your changes</source>
@@ -10321,7 +10534,7 @@
             </trans-unit>
             <trans-unit id="64f8199bc35f9873eaa8211e81f41ea9">
                 <source>This issue has been changed since you started editing it</source>
-                <target>Заявка была изменена после того, как вы начали ее редактировать</target>
+                <target>Задача была изменена после того, как вы начали ее редактировать</target>
             </trans-unit>
             <trans-unit id="4623ffe0a44ba918a2b65142f01308f0">
                 <source>Data that has been changed is highlighted in red below. Undo your changes to see the updated information</source>
@@ -10333,11 +10546,11 @@
             </trans-unit>
             <trans-unit id="a7048a7e7655e9810334bb088b49ee79">
                 <source>You have changed this issue, but haven't saved your changes yet. To save it, press the %save_changes button to the right</source>
-                <target>Вы изменили заявку, но еще не записали изменения. Чтобы записать их, нажмите кнопку %save_changes справа</target>
+                <target>Вы изменили задачу, но еще не записали изменения. Чтобы записать их, нажмите кнопку %save_changes справа</target>
             </trans-unit>
             <trans-unit id="802e7a17f9f1b69fd6dc81698b7c71d2">
                 <source>There was an error trying to move this issue to the next step in the workflow</source>
-                <target>Произошла ошибка при попытке перевести заяву на следующий шаг рабочего процесса</target>
+                <target>Произошла ошибка при попытке перевести задачу на следующий шаг рабочего процесса</target>
             </trans-unit>
             <trans-unit id="a051743d000f8ff94cf4e5d4ab1a886c">
                 <source>There was an error trying to save changes to this issue</source>
@@ -10377,7 +10590,7 @@
             </trans-unit>
             <trans-unit id="c5dbb6f3acf83903365beb7261ecdf1d">
                 <source>This issue has been closed with status &quot;%status_name&quot; and resolution &quot;%resolution&quot;.</source>
-                <target>Эта задача закрыта с состоянием «%status_name» и решением «%resolution».</target>
+                <target>Эта задача закрыта с состоянием &quot;%status_name&quot; и решением &quot;%resolution&quot;.</target>
             </trans-unit>
             <trans-unit id="30d17b8422515b4d85625e96e3b8def6">
                 <source>The project this issue belongs to has been archived, and so this issue is now read only</source>
@@ -10408,7 +10621,7 @@
             </trans-unit>
             <trans-unit id="d5fffa806be5a15a9fb00a4493af9112">
                 <source>Show issue history</source>
-                <target>Показать историю заявки</target>
+                <target>Показать историю задачи</target>
             </trans-unit>
             <trans-unit id="a03ae702be865c1e785444fb4ce6fa4c">
                 <source>This message will disappear when you reload the page.</source>
@@ -11016,7 +11229,7 @@
             </trans-unit>
             <trans-unit id="d53907d724bf05eff15a2e80205f2d1e">
                 <source>Show details</source>
-                <target>Показать детали</target>
+                <target>Подробнее</target>
             </trans-unit>
             <trans-unit id="84ab8c3dcdfacf8de79f9d6ee6d29ac2">
                 <source>Show more issues</source>
@@ -11109,6 +11322,7 @@
             </trans-unit>
             <trans-unit id="f6730d9ed4ce98290a772d1b7658bf7f">
                 <source>Not visible</source>
+                <target>Скрыто</target>
             </trans-unit>
             <trans-unit id="399402d5588629f641b0ede08d04404b">
                 <source>Issue availability</source>
@@ -11116,6 +11330,7 @@
             </trans-unit>
             <trans-unit id="1030e7f3221400c17c17be40da07d2b6">
                 <source>Percentage type</source>
+                <target>Тип процентов</target>
             </trans-unit>
             <trans-unit id="610b554d147237a70f70e2351195b7cc">
                 <source>Planned start date</source>
@@ -11194,9 +11409,11 @@
             </trans-unit>
             <trans-unit id="a35667573c17adeb3963043c37993473">
                 <source>Hours burndown</source>
+                <target>Сгорание часов</target>
             </trans-unit>
             <trans-unit id="93c186999a727d6d4730aadbcd71ddd2">
                 <source>Points burndown</source>
+                <target>Сгорание очков</target>
             </trans-unit>
             <trans-unit id="64393714a3482bce4c534e8f2114735b">
                 <source>Estimated hours</source>
@@ -11212,7 +11429,7 @@
             </trans-unit>
             <trans-unit id="aac5e5c842dba64bccc53857bef07ce7">
                 <source>Spent points</source>
-                <target>Потрачено очков</target>
+                <target>Затрачено очков</target>
             </trans-unit>
             <trans-unit id="1cb9430024699fd4b3731fc4df1f1836">
                 <source>No milestone selected</source>
@@ -11564,7 +11781,7 @@
             </trans-unit>
             <trans-unit id="b5577d27ebfdd60a3bda83ae726d574b">
                 <source>Edit dashboard</source>
-                <target>Редактировать рабочий стол</target>
+                <target>Настроить рабочий стол</target>
             </trans-unit>
         </body>
     </file>
@@ -11960,6 +12177,7 @@
             </trans-unit>
             <trans-unit id="91fe1a7a2646407c7fd6f533a96eb338">
                 <source>Available only to issue's poster</source>
+                <target>Доступно только создателю задачи</target>
             </trans-unit>
             <trans-unit id="437bdd88421f2f52b1dee2aa7136d787">
                 <source>Allow freelancing</source>
@@ -11977,6 +12195,7 @@
             </trans-unit>
             <trans-unit id="be9f0c332cd1a54add3ec545577f06db">
                 <source>Reportable time units</source>
+                <target>Отчетные единицы времени</target>
             </trans-unit>
             <trans-unit id="9e578302a1d2d831bb9ca57edbe9a154">
                 <source>With this option you can now limit what time units can be reported for issues.</source>
@@ -12073,6 +12292,7 @@
             </trans-unit>
             <trans-unit id="5dee34b85d085e6fc739f0a171fb488e">
                 <source>This story doesn't have any tasks</source>
+                <target>У этой истории нет заданий</target>
             </trans-unit>
         </body>
     </file>
@@ -12115,6 +12335,7 @@
             </trans-unit>
             <trans-unit id="4b8c241ea583028e5028c4bc490d121a">
                 <source>This dashboard doesn't contain any views.</source>
+                <target>Этот рабочий стол не содержит представлений.</target>
             </trans-unit>
             <trans-unit id="a73b5be4aafe3a48bec37cf9718e4b45">
                 <source>Setup project dashboard</source>
@@ -12190,9 +12411,11 @@
             </trans-unit>
             <trans-unit id="166feb7616b840bc1c310f46e311a1d8">
                 <source>Add edition release</source>
+                <target>Добавить релиз для редакции</target>
             </trans-unit>
             <trans-unit id="34ed6fae237b5ddcc8c962c7049c8347">
                 <source>Add %edition_name release</source>
+                <target>Добавить релиз для %edition_name</target>
             </trans-unit>
             <trans-unit id="ebce52a91ea277eb89c5f2682704e418">
                 <source>Project releases</source>
@@ -12204,9 +12427,11 @@
             </trans-unit>
             <trans-unit id="b58561ed96a46317fc45f94a0554cdb0">
                 <source>%edition_name releases</source>
+                <target>релизы %edition_name</target>
             </trans-unit>
             <trans-unit id="b7232ceab32069125f3100c32a8c5a69">
                 <source>There are no releases for this edition</source>
+                <target>Нет релизов для этой редакции</target>
             </trans-unit>
             <trans-unit id="f3f43e30c8c7d78c6ac0173515e57a00">
                 <source>Filters</source>
@@ -12344,9 +12569,11 @@
             </trans-unit>
             <trans-unit id="fba19e3713b00e9263ff58cbdf3dedfc">
                 <source>Other project details</source>
+                <target>Другие детали проекта</target>
             </trans-unit>
             <trans-unit id="009ca4f19236d356254e80feadeab269">
                 <source>Project settings have been saved successfully</source>
+                <target>Настройки проекта успешно сохранены</target>
             </trans-unit>
         </body>
     </file>
@@ -12363,7 +12590,7 @@
             </trans-unit>
             <trans-unit id="fa57681308f939c451ff15bd227a7331">
                 <source>Click one of the graphs below to show details</source>
-                <target>Нажмите один из графов ниже, чтобы показать детали</target>
+                <target>Нажмите один из графиков ниже, чтобы увидеть подробности</target>
             </trans-unit>
             <trans-unit id="fd9912c5e4eb8689e5bcc47bca8a425f">
                 <source>Select an item in the left menu to show more details</source>
@@ -12384,6 +12611,7 @@
             </trans-unit>
             <trans-unit id="783e1a008ec487f09805570398ede130">
                 <source>Closed vs open issues, last 15 days isolated</source>
+                <target>Закрытые/открытые задачи, последние 15 дней</target>
             </trans-unit>
         </body>
     </file>
@@ -12392,6 +12620,7 @@
         <body>
             <trans-unit id="5627c6311b9f287e6c03446fc3f33faf">
                 <source>Timeline actions</source>
+                <target>Действия временной шкалы</target>
             </trans-unit>
             <trans-unit id="a1be8f3edc73d0f04de95a52eb9e3348">
                 <source>Only important items</source>
@@ -12399,6 +12628,7 @@
             </trans-unit>
             <trans-unit id="63aafcf96c05b918f982042aa4851305">
                 <source>All timeline items</source>
+                <target>Все элементы временной шкалы</target>
             </trans-unit>
         </body>
     </file>
@@ -12525,6 +12755,7 @@
             </trans-unit>
             <trans-unit id="2e63fc72170fa1b4bc53400a40499794">
                 <source>This is not a valid search field</source>
+                <target>Это неверное поле поиска</target>
             </trans-unit>
             <trans-unit id="62d1c48ebff6ebd82ea4332a819c5143">
                 <source>Please enter 3 characters or more</source>
@@ -12532,7 +12763,7 @@
             </trans-unit>
             <trans-unit id="a84a791e63dc7003ff36e6780f481d92">
                 <source>Not targetted</source>
-                <target>Свободные</target>
+                <target>Не назначен этап</target>
             </trans-unit>
         </body>
     </file>
@@ -12581,7 +12812,7 @@
             </trans-unit>
             <trans-unit id="2c3a98ff4b486a6228f9dca3c198d77d">
                 <source>No severity</source>
-                <target>Не строго</target>
+                <target>Серьезность не задана</target>
             </trans-unit>
             <trans-unit id="9639e32cab248434a17ab32237cb3b71">
                 <source>Apply</source>
@@ -12670,6 +12901,7 @@
         <body>
             <trans-unit id="e4da0f918e8d703993deffa03bfa2fa6">
                 <source>Yourself</source>
+                <target>Я</target>
             </trans-unit>
         </body>
     </file>
@@ -12709,7 +12941,7 @@
             </trans-unit>
             <trans-unit id="5dd6ecd13fa74080fb6d4c093ab5e595">
                 <source>Filter on issuetype</source>
-                <target>Фильтр по типу заявок</target>
+                <target>Фильтр по типу задачи</target>
             </trans-unit>
             <trans-unit id="49a2548b02d0e5a41222a507e0a62aef">
                 <source>Subproject(s)</source>
@@ -12717,7 +12949,7 @@
             </trans-unit>
             <trans-unit id="e3dd154c1deaaf97361795386fe02e87">
                 <source>Include issues from subproject(s)</source>
-                <target>Включая заявки из подпроектов</target>
+                <target>Включая задачи из подпроектов</target>
             </trans-unit>
             <trans-unit id="ed36a1ef76a59ee3f15180e0441188ad">
                 <source>Any</source>
@@ -12804,7 +13036,7 @@
             </trans-unit>
             <trans-unit id="ed0ca0f80795f9b3540717dc304c4dbd">
                 <source>Filter on severity</source>
-                <target>Фильтр по важности</target>
+                <target>Фильтр по серьезности</target>
             </trans-unit>
             <trans-unit id="8b22e326ad89143d91c262f12272141f">
                 <source>Filter on reproducability</source>
@@ -12875,11 +13107,11 @@
             </trans-unit>
             <trans-unit id="f6bc60cc4cce4c6d5b8b3b0d1d8d8c31">
                 <source>Only open issues</source>
-                <target>Только открытые заявки</target>
+                <target>Только открытые задачи</target>
             </trans-unit>
             <trans-unit id="c8d1797b440b3bfaf35b1bbc41d2d707">
                 <source>Only closed issues</source>
-                <target>Только закрытые заявки</target>
+                <target>Только закрытые задачи</target>
             </trans-unit>
         </body>
     </file>
@@ -13009,7 +13241,7 @@
             </trans-unit>
             <trans-unit id="d98fedd8bc3231a5ab66c58191a37529">
                 <source>Total number of issues: %number</source>
-                <target>Общее количество заявок: %number</target>
+                <target>Общее количество задач: %number</target>
             </trans-unit>
             <trans-unit id="e5d45692303438aa653f2b0ec3ea6b8d">
                 <source>Total estimated effort: %details</source>
@@ -13108,7 +13340,7 @@
             </trans-unit>
             <trans-unit id="b0e6ad3696e483f8728660ab9bbd1eed">
                 <source>Issue detail filters</source>
-                <target>Фильтры по свойствам заявок</target>
+                <target>Фильтры по свойствам задач</target>
             </trans-unit>
             <trans-unit id="c0a74a683800fb785507774eec8a6d26">
                 <source>Other filters</source>
@@ -13277,7 +13509,7 @@
             </trans-unit>
             <trans-unit id="71540605956fe500e9b420cbc71ab8a1">
                 <source>This action cannot be reverted. Note: this will not modify any issues affected by this search</source>
-                <target>Это действие не может быть отменено. Примечание: Это действие не приведет к изменению заявок</target>
+                <target>Это действие не может быть отменено. Примечание: это действие не приведет к изменению задач</target>
             </trans-unit>
             <trans-unit id="b21c60546d658d908617d5c20e5b50fd">
                 <source>Yes, delete</source>
@@ -13334,6 +13566,7 @@
             </trans-unit>
             <trans-unit id="cf28de50427e8acd7297f212a98d4099">
                 <source>Search details have been saved</source>
+                <target>Детали поиска были сохранены</target>
             </trans-unit>
             <trans-unit id="218d4279ad36b09e59173b442bcac2ea">
                 <source>%number_of issue(s)</source>
@@ -13359,10 +13592,11 @@
         <body>
             <trans-unit id="2a9f3583a43eb5c68fb601574c798bc1">
                 <source>Press &quot;Enter&quot; twice to find issues matching your query</source>
-                <target>Нажмите &quot;Enter&quot; дважды, чтобы найти задачи соответствующие вашему запросу</target>
+                <target>Нажмите &quot;Ввод&quot; дважды, чтобы найти задачи соответствующие вашему запросу</target>
             </trans-unit>
             <trans-unit id="f6fb8cea0e021de655a695d4ee082d3d">
                 <source>Select this to search for this user</source>
+                <target>Выберите эту опцию для поиска по этому пользователю</target>
             </trans-unit>
             <trans-unit id="4d4a00003fba2622c02229400a3f906e">
                 <source>%num user(s) found</source>
@@ -13419,7 +13653,7 @@
         <body>
             <trans-unit id="ce4f0749e7e52dca6fbfb15275cb6430">
                 <source>Click this message to dismiss it</source>
-                <target>Кликните по этому сообщению, чтобы убрать его</target>
+                <target>Нажмите на это сообщение, чтобы закрыть его</target>
             </trans-unit>
             <trans-unit id="3342209ae0c129fabccab65b82a503a6">
                 <source>Skip this tutorial</source>
@@ -13469,7 +13703,7 @@
             </trans-unit>
             <trans-unit id="51a86cf2722f1be8670a091910017425">
                 <source>You are not logged in</source>
-                <target>Вы не авторизованы</target>
+                <target>Вы не вошли в систему</target>
             </trans-unit>
             <trans-unit id="99dea78007133396a7b8ed70578ac6ae">
                 <source>Login</source>
@@ -13485,7 +13719,7 @@
             </trans-unit>
             <trans-unit id="fb739d5576efc52bf211f5ccd2bfddb5">
                 <source>Your dashboard</source>
-                <target>Ваш рабочий стол</target>
+                <target>Мой рабочий стол</target>
             </trans-unit>
             <trans-unit id="b1fcab0a412a57094086194e40470ef1">
                 <source>Customize your dashboard</source>
@@ -13493,7 +13727,7 @@
             </trans-unit>
             <trans-unit id="f2fc7490cbdb0db5cd6f1a4e7edb0da1">
                 <source>Your account</source>
-                <target>Ваш аккаунт</target>
+                <target>Моя учетная запись</target>
             </trans-unit>
             <trans-unit id="e62c51d62920abd3cf1241ebde0eb283">
                 <source>You are temporarily this user</source>
